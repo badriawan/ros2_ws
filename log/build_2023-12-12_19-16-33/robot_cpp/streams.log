@@ -1,0 +1,30 @@
+[0.118s] Invoking command in '/home/yusuf/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/robot_cpp -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/robot_cpp
+[0.139s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.443s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.526s] -- Added test 'lint_cmake' to check CMake code style
+[0.528s] -- Added test 'xmllint' to check XML markup files
+[0.530s] -- Configuring done
+[0.534s] -- Generating done
+[0.535s] -- Build files have been written to: /home/yusuf/ros2_ws/build/robot_cpp
+[0.538s] Invoked command in '/home/yusuf/ros2_ws/build/robot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/robot_cpp -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/robot_cpp
+[0.541s] Invoking command in '/home/yusuf/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_cpp -- -j8 -l8
+[0.582s] Invoked command in '/home/yusuf/ros2_ws/build/robot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_cpp -- -j8 -l8
+[0.617s] Invoking command in '/home/yusuf/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/robot_cpp
+[0.627s] -- Install configuration: ""
+[0.628s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/ament_index/resource_index/package_run_dependencies/robot_cpp
+[0.628s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/ament_index/resource_index/parent_prefix_path/robot_cpp
+[0.628s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/environment/ament_prefix_path.sh
+[0.628s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/environment/ament_prefix_path.dsv
+[0.629s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/environment/path.sh
+[0.629s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/environment/path.dsv
+[0.629s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.bash
+[0.629s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.sh
+[0.629s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.zsh
+[0.630s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.dsv
+[0.630s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/package.dsv
+[0.630s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/ament_index/resource_index/packages/robot_cpp
+[0.630s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/cmake/robot_cppConfig.cmake
+[0.631s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/cmake/robot_cppConfig-version.cmake
+[0.631s] -- Installing: /home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/package.xml
+[0.634s] Invoked command in '/home/yusuf/ros2_ws/build/robot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/robot_cpp

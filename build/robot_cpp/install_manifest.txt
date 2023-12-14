@@ -1,0 +1,15 @@
+/home/yusuf/ros2_ws/install/robot_cpp/share/ament_index/resource_index/package_run_dependencies/robot_cpp
+/home/yusuf/ros2_ws/install/robot_cpp/share/ament_index/resource_index/parent_prefix_path/robot_cpp
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/environment/ament_prefix_path.sh
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/environment/ament_prefix_path.dsv
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/environment/path.sh
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/environment/path.dsv
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.bash
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.sh
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.zsh
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.dsv
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/package.dsv
+/home/yusuf/ros2_ws/install/robot_cpp/share/ament_index/resource_index/packages/robot_cpp
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/cmake/robot_cppConfig.cmake
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/cmake/robot_cppConfig-version.cmake
+/home/yusuf/ros2_ws/install/robot_cpp/share/robot_cpp/package.xml
