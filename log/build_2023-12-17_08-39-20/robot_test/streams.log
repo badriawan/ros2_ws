@@ -1,0 +1,1 @@
+[0.476s] Invoking command in '/home/yusuf/ros2_ws/build/robot_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_learners/install/robot_math:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_test -- -j8 -l8

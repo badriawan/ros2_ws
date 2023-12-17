@@ -1,0 +1,11 @@
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/uninstall.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/navigation_1_uninstall.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/ament_cmake_python_copy_navigation_1.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/ament_cmake_python_build_navigation_1_egg.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/test.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/edit_cache.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/rebuild_cache.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/list_install_components.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/install.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/install/local.dir
+/home/yusuf/ros2_ws/build/navigation_1/CMakeFiles/install/strip.dir

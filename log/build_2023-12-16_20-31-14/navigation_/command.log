@@ -1,0 +1,6 @@
+Invoking command in '/home/yusuf/ros2_ws/build/navigation_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/navigation_ -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/navigation_
+Invoked command in '/home/yusuf/ros2_ws/build/navigation_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/navigation_ -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/navigation_
+Invoking command in '/home/yusuf/ros2_ws/build/navigation_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/navigation_ -- -j8 -l8
+Invoked command in '/home/yusuf/ros2_ws/build/navigation_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/navigation_ -- -j8 -l8
+Invoking command in '/home/yusuf/ros2_ws/build/navigation_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/navigation_
+Invoked command in '/home/yusuf/ros2_ws/build/navigation_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/navigation_

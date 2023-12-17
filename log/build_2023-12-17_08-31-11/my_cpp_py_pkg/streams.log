@@ -1,0 +1,20 @@
+[1.266s] Invoking command in '/home/yusuf/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/my_cpp_py_pkg -- -j8 -l8
+[2.560s] Invoked command in '/home/yusuf/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/my_cpp_py_pkg -- -j8 -l8
+[2.774s] Invoking command in '/home/yusuf/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/my_cpp_py_pkg
+[2.823s] -- Install configuration: ""
+[2.837s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+[2.838s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+[2.839s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+[2.839s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+[2.839s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+[2.840s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+[2.840s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+[2.840s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+[2.841s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+[2.841s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+[2.841s] -- Installing: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+[2.842s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+[2.842s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+[2.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+[2.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml
+[2.879s] Invoked command in '/home/yusuf/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/my_cpp_py_pkg

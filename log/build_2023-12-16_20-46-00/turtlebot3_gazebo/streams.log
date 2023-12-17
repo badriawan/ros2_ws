@@ -1,0 +1,6 @@
+[0.462s] Invoking command in '/home/yusuf/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.906s] [ 25%] Built target turtlebot3_drive
+[0.907s] [ 50%] Built target obstacle2
+[0.907s] [ 75%] Built target obstacle1
+[0.907s] [100%] Built target obstacles
+[0.930s] Invoked command in '/home/yusuf/ros2_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8
