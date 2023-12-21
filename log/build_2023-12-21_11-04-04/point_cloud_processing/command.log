@@ -1,0 +1,6 @@
+Invoking command in '/home/yusuf/ros2_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/mobile_robotics_ROS2/point_cloud_processing -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/point_cloud_processing
+Invoked command in '/home/yusuf/ros2_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/mobile_robotics_ROS2/point_cloud_processing -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/point_cloud_processing
+Invoking command in '/home/yusuf/ros2_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/point_cloud_processing -- -j8 -l8
+Invoked command in '/home/yusuf/ros2_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/point_cloud_processing -- -j8 -l8
+Invoking command in '/home/yusuf/ros2_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/point_cloud_processing
+Invoked command in '/home/yusuf/ros2_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/point_cloud_processing

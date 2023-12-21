@@ -1,0 +1,12 @@
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/uninstall.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/drive_turtle_uninstall.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/p1_single_straight_drive.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/p1_multi_straight_drive.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/p1_multi_turtle_controller.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/test.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/edit_cache.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/rebuild_cache.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/list_install_components.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/install.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/install/local.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/install/strip.dir
