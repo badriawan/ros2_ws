@@ -1,0 +1,71 @@
+[0.419s] Invoking command in '/home/yusuf/ros2_ws/build/drive_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/drive_tb3 -- -j8 -l8
+[0.673s] [  9%] Built target p2_multi_tb3_sqaure_drive
+[0.673s] [ 18%] Built target p3_b_angular_velocity
+[0.688s] [ 27%] Built target p3_a_acceleration
+[0.690s] [ 36%] Built target p3_d_xy_goal
+[0.699s] [ 45%] Built target p5_a_lidar_data_sub
+[0.704s] [ 54%] Built target p3_c_linear_goal
+[0.716s] [ 63%] Built target p5_b_maze_solving
+[0.716s] [ 72%] Built target p5_c_camera_data_sub
+[0.768s] [ 81%] Built target p6_b_sdf_spawner
+[0.775s] [ 90%] Built target p5_d_line_following
+[0.802s] [100%] Built target p6_a_occupancy_grid
+[1.013s] Invoked command in '/home/yusuf/ros2_ws/build/drive_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/drive_tb3 -- -j8 -l8
+[1.559s] Invoking command in '/home/yusuf/ros2_ws/build/drive_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/drive_tb3
+[1.769s] -- Install configuration: ""
+[1.770s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p2_multi_tb3_sqaure_drive
+[1.770s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_a_acceleration
+[1.770s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_b_angular_velocity
+[1.771s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_c_linear_goal
+[1.771s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_d_xy_goal
+[1.772s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_a_lidar_data_sub
+[1.772s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_b_maze_solving
+[1.772s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_c_camera_data_sub
+[1.772s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_d_line_following
+[1.773s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_a_occupancy_grid
+[1.774s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_b_sdf_spawner
+[1.775s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_c_commander_api_go_to_pose.py
+[1.775s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch
+[1.777s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p5_a_maze_solve.launch.py
+[1.778s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p6_a_maze_mapping.launch.py
+[1.778s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p2_c_drive_sqaure_multi_tb3.launch.py
+[1.778s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p2_a_spawn_tb3.launch.py
+[1.779s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p6_b_maze_navigation.launch.py
+[1.779s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p2_b_multi_tb3.launch.py
+[1.780s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p3_a_maths.launch.py
+[1.780s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p5_b_line_following.launch.py
+[1.780s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//worlds
+[1.781s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//worlds/maze.world
+[1.781s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//worlds/line_following.world
+[1.781s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models
+[1.781s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/maze
+[1.782s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/maze/model.sdf
+[1.782s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/maze/model.config
+[1.782s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/line_track
+[1.782s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/line_track/model.sdf
+[1.783s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/line_track/model.config
+[1.783s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/meshes
+[1.783s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/meshes/base.dae
+[1.783s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/meshes/line.dae
+[1.784s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//map
+[1.784s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//map/maze_map.pgm
+[1.784s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//map/maze_map.yaml
+[1.784s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//config
+[1.784s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//config/waffle_pi.yaml
+[1.785s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//config/nav2.rviz
+[1.785s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/ament_index/resource_index/package_run_dependencies/drive_tb3
+[1.785s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/ament_index/resource_index/parent_prefix_path/drive_tb3
+[1.786s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/environment/ament_prefix_path.sh
+[1.786s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/environment/ament_prefix_path.dsv
+[1.786s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/environment/path.sh
+[1.786s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/environment/path.dsv
+[1.787s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/local_setup.bash
+[1.787s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/local_setup.sh
+[1.787s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/local_setup.zsh
+[1.788s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/local_setup.dsv
+[1.788s] -- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/package.dsv
+[1.788s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/ament_index/resource_index/packages/drive_tb3
+[1.789s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/cmake/drive_tb3Config.cmake
+[1.789s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/cmake/drive_tb3Config-version.cmake
+[1.789s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/package.xml
+[2.259s] Invoked command in '/home/yusuf/ros2_ws/build/drive_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/drive_tb3

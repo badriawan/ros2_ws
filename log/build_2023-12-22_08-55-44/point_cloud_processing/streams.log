@@ -1,0 +1,32 @@
+[0.177s] Invoking command in '/home/yusuf/ros2_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/point_cloud_processing -- -j8 -l8
+[0.396s] [ 20%] Built target p9_a_pcd_import
+[0.457s] [ 40%] Built target p9_c_circular_cloud
+[0.462s] [ 60%] Built target p9_b_plane_cloud
+[0.463s] [ 80%] Built target p9_e_path_creation
+[0.473s] [100%] Built target p9_d_filtering_segmentation
+[0.551s] Invoked command in '/home/yusuf/ros2_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/point_cloud_processing -- -j8 -l8
+[0.693s] Invoking command in '/home/yusuf/ros2_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/point_cloud_processing
+[0.819s] -- Install configuration: ""
+[0.819s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/lib/point_cloud_processing/p9_a_pcd_import
+[0.820s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/lib/point_cloud_processing/p9_b_plane_cloud
+[0.820s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/lib/point_cloud_processing/p9_c_circular_cloud
+[0.820s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/lib/point_cloud_processing/p9_d_filtering_segmentation
+[0.821s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/lib/point_cloud_processing/p9_e_path_creation
+[0.821s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing//launch
+[0.821s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing//launch/p9_a_rtab_mapping.launch.py
+[0.821s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing
+[0.822s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing
+[0.822s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh
+[0.822s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv
+[0.823s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh
+[0.823s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv
+[0.824s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash
+[0.824s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh
+[0.824s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh
+[0.825s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv
+[0.825s] -- Installing: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/package.dsv
+[0.826s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing
+[0.826s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake
+[0.826s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake
+[0.826s] -- Up-to-date: /home/yusuf/ros2_ws/install/point_cloud_processing/share/point_cloud_processing/package.xml
+[0.981s] Invoked command in '/home/yusuf/ros2_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/point_cloud_processing

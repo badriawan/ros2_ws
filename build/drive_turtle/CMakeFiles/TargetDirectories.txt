@@ -3,6 +3,7 @@
 /home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/p1_single_straight_drive.dir
 /home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/p1_multi_straight_drive.dir
 /home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/p1_multi_turtle_controller.dir
+/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/test_run.dir
 /home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/test.dir
 /home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/edit_cache.dir
 /home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles/rebuild_cache.dir

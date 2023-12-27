@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/yusuf/ros2_ws/build/drive_turtle
 all: CMakeFiles/p1_single_straight_drive.dir/all
 all: CMakeFiles/p1_multi_straight_drive.dir/all
 all: CMakeFiles/p1_multi_turtle_controller.dir/all
+all: CMakeFiles/test_run.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ clean: CMakeFiles/drive_turtle_uninstall.dir/clean
 clean: CMakeFiles/p1_single_straight_drive.dir/clean
 clean: CMakeFiles/p1_multi_straight_drive.dir/clean
 clean: CMakeFiles/p1_multi_turtle_controller.dir/clean
+clean: CMakeFiles/test_run.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -209,6 +211,32 @@ p1_multi_turtle_controller: CMakeFiles/p1_multi_turtle_controller.dir/rule
 CMakeFiles/p1_multi_turtle_controller.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_multi_turtle_controller.dir/build.make CMakeFiles/p1_multi_turtle_controller.dir/clean
 .PHONY : CMakeFiles/p1_multi_turtle_controller.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_run.dir
+
+# All Build rule for target.
+CMakeFiles/test_run.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles --progress-num=7,8 "Built target test_run"
+.PHONY : CMakeFiles/test_run.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_run.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yusuf/ros2_ws/build/drive_turtle/CMakeFiles 0
+.PHONY : CMakeFiles/test_run.dir/rule
+
+# Convenience name for target.
+test_run: CMakeFiles/test_run.dir/rule
+.PHONY : test_run
+
+# clean rule for target.
+CMakeFiles/test_run.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/clean
+.PHONY : CMakeFiles/test_run.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

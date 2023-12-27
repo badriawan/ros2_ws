@@ -236,6 +236,19 @@ p1_multi_turtle_controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_multi_turtle_controller.dir/build.make CMakeFiles/p1_multi_turtle_controller.dir/build
 .PHONY : p1_multi_turtle_controller/fast
 
+#=============================================================================
+# Target rules for targets named test_run
+
+# Build rule for target.
+test_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_run
+.PHONY : test_run
+
+# fast build rule for target.
+test_run/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/build
+.PHONY : test_run/fast
+
 src/p1_a_single_straight_drive.o: src/p1_a_single_straight_drive.cpp.o
 .PHONY : src/p1_a_single_straight_drive.o
 
@@ -308,6 +321,30 @@ src/p1_c_multi_turtle_controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p1_multi_turtle_controller.dir/build.make CMakeFiles/p1_multi_turtle_controller.dir/src/p1_c_multi_turtle_controller.cpp.s
 .PHONY : src/p1_c_multi_turtle_controller.cpp.s
 
+src/test_run.o: src/test_run.cpp.o
+.PHONY : src/test_run.o
+
+# target to build an object file
+src/test_run.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/src/test_run.cpp.o
+.PHONY : src/test_run.cpp.o
+
+src/test_run.i: src/test_run.cpp.i
+.PHONY : src/test_run.i
+
+# target to preprocess a source file
+src/test_run.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/src/test_run.cpp.i
+.PHONY : src/test_run.cpp.i
+
+src/test_run.s: src/test_run.cpp.s
+.PHONY : src/test_run.s
+
+# target to generate assembly for a file
+src/test_run.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_run.dir/build.make CMakeFiles/test_run.dir/src/test_run.cpp.s
+.PHONY : src/test_run.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +363,7 @@ help:
 	@echo "... p1_multi_straight_drive"
 	@echo "... p1_multi_turtle_controller"
 	@echo "... p1_single_straight_drive"
+	@echo "... test_run"
 	@echo "... src/p1_a_single_straight_drive.o"
 	@echo "... src/p1_a_single_straight_drive.i"
 	@echo "... src/p1_a_single_straight_drive.s"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/p1_c_multi_turtle_controller.o"
 	@echo "... src/p1_c_multi_turtle_controller.i"
 	@echo "... src/p1_c_multi_turtle_controller.s"
+	@echo "... src/test_run.o"
+	@echo "... src/test_run.i"
+	@echo "... src/test_run.s"
 .PHONY : help
 
 
