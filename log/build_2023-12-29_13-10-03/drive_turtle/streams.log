@@ -1,0 +1,34 @@
+[1.105s] Invoking command in '/home/yusuf/ros2_ws/build/drive_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/drive_turtle -- -j8 -l8
+[1.240s] [ 25%] Built target p1_multi_straight_drive
+[1.240s] [ 50%] Built target p1_multi_turtle_controller
+[1.240s] [100%] Built target test_run
+[1.240s] [100%] Built target p1_single_straight_drive
+[1.593s] Invoked command in '/home/yusuf/ros2_ws/build/drive_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/drive_turtle -- -j8 -l8
+[1.815s] Invoking command in '/home/yusuf/ros2_ws/build/drive_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/drive_turtle
+[1.841s] -- Install configuration: ""
+[1.841s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_multi_turtle_controller
+[1.841s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_single_straight_drive
+[1.841s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_multi_straight_drive
+[1.842s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/test_run
+[1.844s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch
+[1.844s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/p1_c_multi_robot_controller.launch.py
+[1.844s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/p1_b_multi_robot_single_sim.launch.py
+[1.844s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/p1_d_run_multi_turtlesim_drive.launch.py
+[1.844s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/test_run.launch.py
+[1.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/p1_a_multi_robot_multi_sim.launch.py
+[1.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/ament_index/resource_index/package_run_dependencies/drive_turtle
+[1.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/ament_index/resource_index/parent_prefix_path/drive_turtle
+[1.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/environment/ament_prefix_path.sh
+[1.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/environment/ament_prefix_path.dsv
+[1.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/environment/path.sh
+[1.845s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/environment/path.dsv
+[1.846s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/local_setup.bash
+[1.846s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/local_setup.sh
+[1.846s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/local_setup.zsh
+[1.846s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/local_setup.dsv
+[1.846s] -- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/package.dsv
+[1.846s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/ament_index/resource_index/packages/drive_turtle
+[1.846s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/cmake/drive_turtleConfig.cmake
+[1.846s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/cmake/drive_turtleConfig-version.cmake
+[1.847s] -- Up-to-date: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/package.xml
+[1.951s] Invoked command in '/home/yusuf/ros2_ws/build/drive_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/drive_turtle

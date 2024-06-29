@@ -1,0 +1,52 @@
+[0.506s] Invoking command in '/home/yusuf/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/navigation_tb3 -- -j8 -l8
+[0.745s] [100%] Built target pub_occupancy_grid
+[0.746s] [100%] Built target ament_cmake_python_copy_navigation_tb3
+[1.034s] running egg_info
+[1.034s] writing navigation_tb3.egg-info/PKG-INFO
+[1.035s] writing dependency_links to navigation_tb3.egg-info/dependency_links.txt
+[1.035s] writing top-level names to navigation_tb3.egg-info/top_level.txt
+[1.038s] reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[1.040s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[1.069s] [100%] Built target ament_cmake_python_build_navigation_tb3_egg
+[1.348s] Invoked command in '/home/yusuf/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/navigation_tb3 -- -j8 -l8
+[1.919s] Invoking command in '/home/yusuf/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/navigation_tb3
+[2.257s] -- Install configuration: ""
+[2.258s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid
+[2.258s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch
+[2.258s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py
+[2.258s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py
+[2.259s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/config
+[2.259s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz
+[2.259s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml
+[2.259s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz
+[2.259s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua
+[2.259s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml
+[2.260s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm
+[2.260s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh
+[2.260s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv
+[2.260s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info
+[2.260s] -- Installing: /home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.261s] -- Installing: /home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.261s] -- Installing: /home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO
+[2.261s] -- Installing: /home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt
+[2.261s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3
+[2.261s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py
+[2.261s] Listing '/home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3'...
+[2.262s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py
+[2.262s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py
+[2.262s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3
+[2.262s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3
+[2.262s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh
+[2.263s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv
+[2.263s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.sh
+[2.263s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.dsv
+[2.263s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.bash
+[2.263s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.sh
+[2.263s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.zsh
+[2.264s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.dsv
+[2.265s] -- Installing: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.dsv
+[2.265s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3
+[2.265s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake
+[2.265s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake
+[2.265s] -- Up-to-date: /home/yusuf/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.xml
+[2.962s] Invoked command in '/home/yusuf/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/navigation_tb3

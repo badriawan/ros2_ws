@@ -1,0 +1,20 @@
+[0.431s] Invoking command in '/home/yusuf/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_control -- -j8 -l8
+[0.599s] Invoked command in '/home/yusuf/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_control -- -j8 -l8
+[1.417s] Invoking command in '/home/yusuf/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/robot_control
+[1.896s] -- Install configuration: ""
+[1.896s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[1.896s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[1.897s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[1.897s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[1.897s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+[1.897s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+[1.897s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+[1.897s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+[1.897s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+[1.898s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+[1.898s] -- Installing: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/package.dsv
+[1.898s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[1.898s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[1.898s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[1.898s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_control/share/robot_control/package.xml
+[2.797s] Invoked command in '/home/yusuf/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/robot_control

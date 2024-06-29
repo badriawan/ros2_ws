@@ -1,0 +1,20 @@
+[1.151s] Invoking command in '/home/yusuf/ros2_ws/build/robot_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_test -- -j8 -l8
+[1.907s] Invoked command in '/home/yusuf/ros2_ws/build/robot_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_test -- -j8 -l8
+[2.017s] Invoking command in '/home/yusuf/ros2_ws/build/robot_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/robot_test
+[2.031s] -- Install configuration: ""
+[2.031s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/ament_index/resource_index/package_run_dependencies/robot_test
+[2.031s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/ament_index/resource_index/parent_prefix_path/robot_test
+[2.032s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/environment/ament_prefix_path.sh
+[2.032s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/environment/ament_prefix_path.dsv
+[2.032s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/environment/path.sh
+[2.033s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/environment/path.dsv
+[2.033s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/local_setup.bash
+[2.033s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/local_setup.sh
+[2.033s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/local_setup.zsh
+[2.033s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/local_setup.dsv
+[2.034s] -- Installing: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/package.dsv
+[2.034s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/ament_index/resource_index/packages/robot_test
+[2.034s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/cmake/robot_testConfig.cmake
+[2.034s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/cmake/robot_testConfig-version.cmake
+[2.034s] -- Up-to-date: /home/yusuf/ros2_ws/install/robot_test/share/robot_test/package.xml
+[2.037s] Invoked command in '/home/yusuf/ros2_ws/build/robot_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/robot_test

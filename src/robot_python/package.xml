@@ -22,6 +22,8 @@
   <exec_depend>my_subscriber</exec_depend>
   <exec_depend>my_service</exec_depend>
   <exec_depend>my_subtest</exec_depend>
+  <exec_depend>test_tf</exec_depend>
+
 
 
   <export>

@@ -1,0 +1,66 @@
+[0.249s] Invoking command in '/home/yusuf/ros2_ws/src/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/mobile_robotics_ROS2/point_cloud_processing -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/src/install/point_cloud_processing
+[2.252s] -- The C compiler identification is GNU 11.4.0
+[2.252s] -- The CXX compiler identification is GNU 11.4.0
+[2.252s] -- Detecting C compiler ABI info
+[2.252s] -- Detecting C compiler ABI info - done
+[2.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.253s] -- Detecting C compile features
+[2.253s] -- Detecting C compile features - done
+[2.253s] -- Detecting CXX compiler ABI info
+[2.253s] -- Detecting CXX compiler ABI info - done
+[2.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.254s] -- Detecting CXX compile features
+[2.254s] -- Detecting CXX compile features - done
+[2.254s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.272s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.558s] -- Checking for module 'eigen3'
+[2.609s] --   Found eigen3, version 3.4.0
+[2.726s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.726s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.883s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.967s] -- Checking for module 'flann'
+[3.093s] --   Found flann, version 1.9.1
+[3.563s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.566s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.874s] -- Looking for pthread.h
+[4.676s] -- Looking for pthread.h - found
+[4.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.468s] -- Found Threads: TRUE  
+[5.490s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[5.603s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[7.496s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[7.498s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[7.520s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[7.664s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[7.898s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[8.105s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[9.490s] -- Found X11: /usr/include   
+[9.491s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[10.621s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[10.623s] -- Looking for gethostbyname
+[11.361s] -- Looking for gethostbyname - found
+[11.362s] -- Looking for connect
+[12.364s] -- Looking for connect - found
+[12.365s] -- Looking for remove
+[13.317s] -- Looking for remove - found
+[13.324s] -- Looking for shmat
+[14.453s] -- Looking for shmat - found
+[14.455s] -- Looking for IceConnectionNumber in ICE
+[15.645s] -- Looking for IceConnectionNumber in ICE - found
+[17.202s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[17.262s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[17.300s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[17.340s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[17.616s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[17.756s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[17.864s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[17.973s] -- Found utf8cpp: /usr/include/utf8cpp  
+[19.588s] -- Checking for module 'libusb-1.0'
+[19.891s] --   Found libusb-1.0, version 1.0.25
+[20.513s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[20.536s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[20.539s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[21.372s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[21.375s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[21.380s] [0m** WARNING ** io features related to pcap will be disabled[0m

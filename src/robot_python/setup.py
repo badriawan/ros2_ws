@@ -1,6 +1,7 @@
-from setuptools import find_packages, setup
 import os
 from glob import glob
+from setuptools import setup
+from setuptools import find_packages
 
 package_name = 'robot_python'
 
@@ -12,9 +13,10 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name), glob('launch/robot_python.launch.py'))
-
-    ],
+        (os.path.join('share', package_name), glob('launch/robot_python.launch.py')),
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*'))),
+        (os.path.join('share', package_name), glob('urdf/*')),
+],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='user',
@@ -30,6 +32,8 @@ setup(
         "my_service = robot_python.my_service:main",
         "my_subtest = robot_python.my_subtest:main",
         "turtlesim_go = robot_python.turtlesim_go:main"
+        "test_tf = robot_python.test_tf:main"
+
         ],
           'launch.frontend': [
             'launch = launch:robot_python.launch[launch.frontend]',

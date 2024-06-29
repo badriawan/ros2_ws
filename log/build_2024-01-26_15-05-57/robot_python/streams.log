@@ -1,0 +1,28 @@
+[1.915s] Invoking command in '/home/yusuf/ros2_ws/src/robot_python': PYTHONPATH=/home/yusuf/ros2_ws/build/robot_python/prefix_override:/home/yusuf/ros2_ws/install/robot_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_python build --build-base /home/yusuf/ros2_ws/build/robot_python/build install --record /home/yusuf/ros2_ws/build/robot_python/install.log --single-version-externally-managed
+[2.291s] running egg_info
+[2.292s] writing ../../build/robot_python/robot_python.egg-info/PKG-INFO
+[2.293s] writing dependency_links to ../../build/robot_python/robot_python.egg-info/dependency_links.txt
+[2.293s] writing entry points to ../../build/robot_python/robot_python.egg-info/entry_points.txt
+[2.293s] writing requirements to ../../build/robot_python/robot_python.egg-info/requires.txt
+[2.294s] writing top-level names to ../../build/robot_python/robot_python.egg-info/top_level.txt
+[2.296s] reading manifest file '../../build/robot_python/robot_python.egg-info/SOURCES.txt'
+[2.299s] writing manifest file '../../build/robot_python/robot_python.egg-info/SOURCES.txt'
+[2.299s] running build
+[2.300s] running build_py
+[2.300s] running install
+[2.300s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.301s]   warnings.warn(
+[2.301s] running install_lib
+[2.303s] running install_data
+[2.304s] running install_egg_info
+[2.307s] removing '/home/yusuf/ros2_ws/install/robot_python/lib/python3.10/site-packages/robot_python-0.0.0-py3.10.egg-info' (and everything under it)
+[2.307s] Copying ../../build/robot_python/robot_python.egg-info to /home/yusuf/ros2_ws/install/robot_python/lib/python3.10/site-packages/robot_python-0.0.0-py3.10.egg-info
+[2.308s] running install_scripts
+[2.338s] Installing my_publisher script to /home/yusuf/ros2_ws/install/robot_python/lib/robot_python
+[2.339s] Installing my_service script to /home/yusuf/ros2_ws/install/robot_python/lib/robot_python
+[2.340s] Installing my_subscriber script to /home/yusuf/ros2_ws/install/robot_python/lib/robot_python
+[2.341s] Installing my_subtest script to /home/yusuf/ros2_ws/install/robot_python/lib/robot_python
+[2.341s] Installing test_node script to /home/yusuf/ros2_ws/install/robot_python/lib/robot_python
+[2.341s] Installing turtlesim_go = robot_python.turtlesim_go:maintest_tf script to /home/yusuf/ros2_ws/install/robot_python/lib/robot_python
+[2.342s] writing list of installed files to '/home/yusuf/ros2_ws/build/robot_python/install.log'
+[2.500s] Invoked command in '/home/yusuf/ros2_ws/src/robot_python' returned '0': PYTHONPATH=/home/yusuf/ros2_ws/build/robot_python/prefix_override:/home/yusuf/ros2_ws/install/robot_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_python build --build-base /home/yusuf/ros2_ws/build/robot_python/build install --record /home/yusuf/ros2_ws/build/robot_python/install.log --single-version-externally-managed

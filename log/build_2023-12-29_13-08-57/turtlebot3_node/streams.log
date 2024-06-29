@@ -1,0 +1,30 @@
+[0.538s] Invoking command in '/home/yusuf/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/turtlebot3_node -- -j8 -l8
+[0.938s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_node_lib[0m
+[0.938s] [ 85%] Built target turtlebot3_node_lib
+[0.940s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_ros[0m
+[0.940s] [100%] Built target turtlebot3_ros
+[1.328s] Invoked command in '/home/yusuf/ros2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/turtlebot3_node -- -j8 -l8
+[1.672s] Invoking command in '/home/yusuf/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/turtlebot3_node
+[1.804s] -- Install configuration: ""
+[1.804s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[1.804s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[1.804s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[1.804s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[1.805s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[1.805s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[1.805s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[1.805s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[1.805s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[1.805s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[1.806s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[1.806s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[1.806s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[1.806s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[1.806s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[1.807s] -- Installing: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[1.807s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[1.808s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.809s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[1.810s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[1.810s] -- Up-to-date: /home/yusuf/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[2.142s] Invoked command in '/home/yusuf/ros2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/turtlebot3_node

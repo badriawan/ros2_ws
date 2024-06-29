@@ -1,0 +1,44 @@
+[2.122s] Invoking command in '/home/yusuf/ros2_ws/src/urdf_tutorial_r2d2': PYTHONPATH=/home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/urdf_tutorial_r2d2 build --build-base /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build install --record /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed
+[2.376s] running egg_info
+[2.377s] creating ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info
+[2.377s] writing ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/PKG-INFO
+[2.377s] writing dependency_links to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[2.378s] writing entry points to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/entry_points.txt
+[2.378s] writing requirements to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/requires.txt
+[2.378s] writing top-level names to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/top_level.txt
+[2.378s] writing manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.381s] reading manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.381s] adding license file 'LICENSE'
+[2.382s] writing manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.382s] running build
+[2.382s] running build_py
+[2.383s] creating /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build
+[2.383s] creating /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build/lib
+[2.383s] creating /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2
+[2.383s] copying urdf_tutorial_r2d2/__init__.py -> /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2
+[2.383s] copying urdf_tutorial_r2d2/state_publisher.py -> /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2
+[2.383s] running install
+[2.383s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.383s]   warnings.warn(
+[2.383s] running install_lib
+[2.384s] creating /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2
+[2.385s] copying /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2/__init__.py -> /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2
+[2.385s] copying /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2/state_publisher.py -> /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2
+[2.386s] byte-compiling /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2/__init__.py to __init__.cpython-310.pyc
+[2.386s] byte-compiling /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2/state_publisher.py to state_publisher.cpython-310.pyc
+[2.387s] running install_data
+[2.388s] creating /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index
+[2.388s] creating /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index
+[2.389s] creating /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[2.389s] copying resource/urdf_tutorial_r2d2 -> /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[2.389s] copying package.xml -> /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[2.389s] creating /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[2.389s] copying launch/demo.launch.py -> /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[2.389s] copying urdf/r2d2.urdf.xml -> /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[2.390s] copying urdf/r2d2.rviz -> /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[2.390s] running install_egg_info
+[2.391s] Copying ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info to /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2-0.0.0-py3.10.egg-info
+[2.392s] running install_scripts
+[2.412s] Installing state_publisher script to /home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[2.412s] writing list of installed files to '/home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/install.log'
+[2.433s] Invoked command in '/home/yusuf/ros2_ws/src/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/urdf_tutorial_r2d2 build --build-base /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/build install --record /home/yusuf/ros2_ws/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed

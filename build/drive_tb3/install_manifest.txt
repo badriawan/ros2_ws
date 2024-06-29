@@ -12,6 +12,7 @@
 /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_c_commander_api_go_to_pose.py
 /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p5_a_maze_solve.launch.py
 /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p6_a_maze_mapping.launch.py
+/home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/test_a.launch.py
 /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p2_c_drive_sqaure_multi_tb3.launch.py
 /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p2_a_spawn_tb3.launch.py
 /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p6_b_maze_navigation.launch.py
