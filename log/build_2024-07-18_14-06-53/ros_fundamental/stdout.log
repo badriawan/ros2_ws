@@ -1,0 +1,34 @@
+[ 40%] Built target talker
+[ 40%] Built target odom_kinematic
+[ 60%] Built target drive_turtle
+[ 80%] Built target listener
+[100%] Built target tf_static
+-- Install configuration: ""
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/talker
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/listener
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/drive_turtle
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/tf_static
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/odom_kinematic
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/gazebo.launch.py
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/turtletest.launch.py
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/rviz.launch.py
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_2.urdf
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/manipulator.urdf
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_drive.urdf
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/package_run_dependencies/ros_fundamental
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/parent_prefix_path/ros_fundamental
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/path.sh
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/path.dsv
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.bash
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.sh
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.zsh
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.dsv
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/package.dsv
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/packages/ros_fundamental
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/cmake/ros_fundamentalConfig.cmake
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/cmake/ros_fundamentalConfig-version.cmake
+-- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/package.xml

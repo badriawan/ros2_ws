@@ -1,0 +1,12 @@
+/usr/bin/ld/usr/bin/ld: : /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `: in function `_start_start':
+':
+((.text.text+0x+0x1b1b)): undefined reference to `: undefined reference to `mainmain'
+'
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:97: talker] Error 1
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:97: listener] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

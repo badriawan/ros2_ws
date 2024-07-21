@@ -1,0 +1,40 @@
+[0.484s] Invoking command in '/home/yusuf/ros2_ws/build/ros2_control_demo_example_14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/ros2_control_demos/example_14 -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/ros2_control_demo_example_14
+[1.283s] -- The CXX compiler identification is GNU 11.4.0
+[1.283s] -- Detecting CXX compiler ABI info
+[1.283s] -- Detecting CXX compiler ABI info - done
+[1.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.283s] -- Detecting CXX compile features
+[1.284s] -- Detecting CXX compile features - done
+[1.284s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.284s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.512s] -- Found hardware_interface: 2.39.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.697s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.718s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.743s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.780s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.806s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.920s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.214s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.226s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.298s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.350s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.392s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.419s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.453s] -- Looking for C++ include pthread.h
+[4.770s] -- Looking for C++ include pthread.h - found
+[4.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.003s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.007s] -- Found Threads: TRUE  
+[5.620s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[6.147s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.646s] -- Configuring done
+[6.910s] -- Generating done
+[6.928s] -- Build files have been written to: /home/yusuf/ros2_ws/build/ros2_control_demo_example_14
+[6.990s] Invoked command in '/home/yusuf/ros2_ws/build/ros2_control_demo_example_14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/ros2_control_demos/example_14 -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/ros2_control_demo_example_14
+[6.991s] Invoking command in '/home/yusuf/ros2_ws/build/ros2_control_demo_example_14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/ros2_control_demo_example_14 -- -j8 -l8
+[8.741s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_14.dir/hardware/rrbot_sensor_for_position_feedback.cpp.o[0m
+[8.741s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_14.dir/hardware/rrbot_actuator_without_feedback.cpp.o[0m
+[55.988s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_14.so[0m
+[59.180s] [100%] Built target ros2_control_demo_example_14

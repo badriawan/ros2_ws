@@ -1,0 +1,6 @@
+source;share/ros2_control_demo_example_14/hook/cmake_prefix_path.ps1
+source;share/ros2_control_demo_example_14/hook/cmake_prefix_path.dsv
+source;share/ros2_control_demo_example_14/hook/cmake_prefix_path.sh
+source;share/ros2_control_demo_example_14/hook/ld_library_path_lib.ps1
+source;share/ros2_control_demo_example_14/hook/ld_library_path_lib.dsv
+source;share/ros2_control_demo_example_14/hook/ld_library_path_lib.sh

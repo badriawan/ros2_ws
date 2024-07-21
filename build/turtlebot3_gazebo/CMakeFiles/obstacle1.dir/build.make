@@ -138,7 +138,7 @@ libobstacle1.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
 libobstacle1.so: /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.2.1
 libobstacle1.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.4.0
 libobstacle1.so: /usr/lib/x86_64-linux-gnu/libignition-msgs5.so.5.8.1
-libobstacle1.so: /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.15.0
+libobstacle1.so: /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.15.1
 libobstacle1.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 libobstacle1.so: /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.14.0
 libobstacle1.so: /usr/lib/x86_64-linux-gnu/libuuid.so

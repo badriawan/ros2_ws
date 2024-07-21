@@ -1,0 +1,40 @@
+[0.150s] Invoking command in '/home/yusuf/ros2_ws/build/ros_fundamental': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/ros_fundamental -- -j8 -l8
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target drive_turtle[0m
+[0.240s] [ 33%] Built target talker
+[0.248s] [ 66%] Built target listener
+[0.253s] [ 83%] [32mBuilding CXX object CMakeFiles/drive_turtle.dir/src/drive_turtle.cpp.o[0m
+[4.412s] [01m[K/home/yusuf/ros2_ws/src/ros_fundamental/src/drive_turtle.cpp:[m[K In member function ‘[01m[Kvoid DriveTurtle::timer_callback()[m[K’:
+[4.412s] [01m[K/home/yusuf/ros2_ws/src/ros_fundamental/src/drive_turtle.cpp:34:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kforward_[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[4.413s]    34 |       if ([01;35m[Kforward_ == true[m[K){
+[4.413s]       |           [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[5.775s] [100%] [32m[1mLinking CXX executable drive_turtle[0m
+[6.048s] [100%] Built target drive_turtle
+[6.067s] Invoked command in '/home/yusuf/ros2_ws/build/ros_fundamental' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/ros_fundamental -- -j8 -l8
+[6.134s] Invoking command in '/home/yusuf/ros2_ws/build/ros_fundamental': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/ros_fundamental
+[6.147s] -- Install configuration: ""
+[6.147s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/talker
+[6.148s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/listener
+[6.149s] -- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/drive_turtle
+[6.153s] -- Set runtime path of "/home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/drive_turtle" to ""
+[6.153s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch
+[6.154s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/turtletest.launch.py
+[6.154s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/rviz.launch.py
+[6.154s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf
+[6.154s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/mobilemanipulator.urdf
+[6.155s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_drive.urdf
+[6.155s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/package_run_dependencies/ros_fundamental
+[6.155s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/parent_prefix_path/ros_fundamental
+[6.155s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/ament_prefix_path.sh
+[6.155s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/ament_prefix_path.dsv
+[6.156s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/path.sh
+[6.156s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/path.dsv
+[6.156s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.bash
+[6.156s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.sh
+[6.156s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.zsh
+[6.156s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.dsv
+[6.157s] -- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/package.dsv
+[6.157s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/packages/ros_fundamental
+[6.157s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/cmake/ros_fundamentalConfig.cmake
+[6.157s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/cmake/ros_fundamentalConfig-version.cmake
+[6.157s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/package.xml
+[6.159s] Invoked command in '/home/yusuf/ros2_ws/build/ros_fundamental' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/ros_fundamental

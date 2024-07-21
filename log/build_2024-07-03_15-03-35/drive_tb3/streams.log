@@ -1,0 +1,69 @@
+[0.688s] Invoking command in '/home/yusuf/ros2_ws/build/drive_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/drive_tb3 -- -j8 -l8
+[0.862s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.950s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.197s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.304s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.311s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.328s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.363s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.949s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.954s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.614s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.219s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.487s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[7.540s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.104s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[8.300s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[13.403s] -- Configuring done
+[14.315s] -- Generating done
+[14.364s] -- Build files have been written to: /home/yusuf/ros2_ws/build/drive_tb3
+[14.937s] [35m[1mConsolidate compiler generated dependencies of target p2_multi_tb3_sqaure_drive[0m
+[14.955s] [35m[1mConsolidate compiler generated dependencies of target p3_c_linear_goal[0m
+[14.956s] [35m[1mConsolidate compiler generated dependencies of target p3_a_acceleration[0m
+[14.971s] [35m[1mConsolidate compiler generated dependencies of target p3_b_angular_velocity[0m
+[14.983s] [35m[1mConsolidate compiler generated dependencies of target p5_b_maze_solving[0m
+[14.991s] [35m[1mConsolidate compiler generated dependencies of target p5_a_lidar_data_sub[0m
+[15.054s] [35m[1mConsolidate compiler generated dependencies of target p3_d_xy_goal[0m
+[15.068s] [35m[1mConsolidate compiler generated dependencies of target p5_c_camera_data_sub[0m
+[15.158s] [  4%] [32mBuilding CXX object CMakeFiles/p3_c_linear_goal.dir/src/p3_c_linear_goal.cpp.o[0m
+[15.282s] [  9%] [32mBuilding CXX object CMakeFiles/p5_a_lidar_data_sub.dir/src/p5_a_lidar_data_sub.cpp.o[0m
+[15.332s] [ 13%] [32mBuilding CXX object CMakeFiles/p3_a_acceleration.dir/src/p3_a_acceleration.cpp.o[0m
+[15.343s] [ 22%] [32mBuilding CXX object CMakeFiles/p2_multi_tb3_sqaure_drive.dir/src/p2_multi_tb3_sqaure_drive.cpp.o[0m
+[15.343s] [ 22%] [32mBuilding CXX object CMakeFiles/p3_b_angular_velocity.dir/src/p3_b_angular_velocity.cpp.o[0m
+[15.405s] [ 31%] [32mBuilding CXX object CMakeFiles/p3_d_xy_goal.dir/src/p3_d_xy_goal.cpp.o[0m
+[15.439s] [ 27%] [32mBuilding CXX object CMakeFiles/p5_c_camera_data_sub.dir/src/p5_c_camera_data_sub.cpp.o[0m
+[15.447s] [ 36%] [32mBuilding CXX object CMakeFiles/p5_b_maze_solving.dir/src/p5_b_maze_solving.cpp.o[0m
+[54.448s] [01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_tb3/src/p5_b_maze_solving.cpp:[m[K In member function ‘[01m[Kvoid lidar_subscriber::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[54.449s] [01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_tb3/src/p5_b_maze_solving.cpp:51:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KOUT_OF_MAZE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[54.449s]    51 |         switch [01;35m[K([m[Kstate_)
+[54.450s]       |                [01;35m[K^[m[K
+[68.438s] [ 40%] [32m[1mLinking CXX executable p2_multi_tb3_sqaure_drive[0m
+[69.654s] [ 45%] [32m[1mLinking CXX executable p3_a_acceleration[0m
+[69.656s] [ 45%] Built target p2_multi_tb3_sqaure_drive
+[69.693s] [ 50%] [32m[1mLinking CXX executable p3_b_angular_velocity[0m
+[71.621s] [ 50%] Built target p3_a_acceleration
+[71.664s] [ 50%] Built target p3_b_angular_velocity
+[93.617s] [ 54%] [32m[1mLinking CXX executable p5_c_camera_data_sub[0m
+[93.902s] [ 59%] [32m[1mLinking CXX executable p3_d_xy_goal[0m
+[95.202s] [ 63%] [32m[1mLinking CXX executable p5_a_lidar_data_sub[0m
+[96.629s] [ 68%] [32m[1mLinking CXX executable p3_c_linear_goal[0m
+[97.027s] [ 68%] Built target p3_d_xy_goal
+[98.487s] [ 68%] Built target p5_a_lidar_data_sub
+[98.856s] [ 72%] [32m[1mLinking CXX executable p5_b_maze_solving[0m
+[99.073s] [ 72%] Built target p3_c_linear_goal
+[99.123s] [ 72%] Built target p5_c_camera_data_sub
+[100.695s] [ 72%] Built target p5_b_maze_solving
+[100.755s] [35m[1mConsolidate compiler generated dependencies of target p6_b_sdf_spawner[0m
+[100.891s] [ 77%] [32mBuilding CXX object CMakeFiles/p6_b_sdf_spawner.dir/src/p6_b_sdf_spawner.cpp.o[0m
+[111.033s] [ 81%] [32m[1mLinking CXX executable p6_b_sdf_spawner[0m
+[111.362s] [ 81%] Built target p6_b_sdf_spawner
+[111.384s] [35m[1mConsolidate compiler generated dependencies of target p6_a_occupancy_grid[0m
+[111.421s] [ 86%] [32mBuilding CXX object CMakeFiles/p6_a_occupancy_grid.dir/src/p6_a_occupancy_grid.cpp.o[0m
+[118.475s] [ 90%] [32m[1mLinking CXX executable p6_a_occupancy_grid[0m
+[118.791s] [ 90%] Built target p6_a_occupancy_grid
+[118.811s] [35m[1mConsolidate compiler generated dependencies of target p5_d_line_following[0m
+[118.850s] [ 95%] [32mBuilding CXX object CMakeFiles/p5_d_line_following.dir/src/p5_d_line_following.cpp.o[0m
+[134.336s] [100%] [32m[1mLinking CXX executable p5_d_line_following[0m
+[135.304s] [100%] Built target p5_d_line_following

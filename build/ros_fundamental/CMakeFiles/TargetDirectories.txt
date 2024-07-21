@@ -1,0 +1,14 @@
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/uninstall.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/ros_fundamental_uninstall.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/talker.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/listener.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/drive_turtle.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/tf_static.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/odom_kinematic.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/test.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/edit_cache.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/rebuild_cache.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/list_install_components.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/install.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/install/local.dir
+/home/yusuf/ros2_ws/build/ros_fundamental/CMakeFiles/install/strip.dir

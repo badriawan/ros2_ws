@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot name="differential_drive_robot">
+
+  <!-- Link definitions -->
+  <link name="base_link"/>
+  <link name="caster"/>
+  <link name="camera"/>
+  <link name="lidar"/>
+  <link name="wheel_right_link"/>
+  <link name="wheel_left_link"/>
+
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera"/>
+    <origin xyz="0.35 0.0 0.01" rpy="0.0 0.0 3.14"/>
+    <axis xyz="0.0 0.0 1.0"/>
+  </joint>
+
+  <joint name="lidar_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar"/>
+    <origin xyz="-0.285 0.0 0.075" rpy="0.0 0.0 1.57"/>
+    <axis xyz="0.0 0.0 1.0"/>
+  </joint>
+
+  <joint name="wheel_right_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheel_right_link"/>
+    <origin xyz="0.2 0.25 0.0" rpy="1.57 0.0 0.0"/>
+    <axis xyz="0.0 0.0 1.0"/>
+  </joint>
+
+  <joint name="wheel_left_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheel_left_link"/>
+    <origin xyz="0.2 -0.25 0.0" rpy="1.57 0.0 0.0"/>
+    <axis xyz="0.0 0.0 1.0"/>
+  </joint>
+
+  <joint name="caster_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="caster"/>
+    <origin xyz="-0.3 0.0 0.07" rpy="0.0 0.0 0.0"/>
+    <axis xyz="0.0 0.0 1.0"/>
+  </joint>
+
+</robot>

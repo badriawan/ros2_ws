@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.000984] (-) JobUnselected: {'identifier': 'LineFollower'}
+[0.001076] (-) JobUnselected: {'identifier': 'drive_tb3'}
+[0.001216] (-) JobUnselected: {'identifier': 'drive_turtle'}
+[0.001287] (-) JobUnselected: {'identifier': 'my_cpp_py_pkg'}
+[0.001322] (-) JobUnselected: {'identifier': 'navigation_tb3'}
+[0.001515] (-) JobUnselected: {'identifier': 'point_cloud_processing'}
+[0.001711] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.001804] (-) JobUnselected: {'identifier': 'robot_cpp'}
+[0.001836] (-) JobUnselected: {'identifier': 'robot_python'}
+[0.001867] (-) JobUnselected: {'identifier': 'robot_test'}
+[0.001916] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.001963] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.002015] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.002090] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.002162] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.002186] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.002211] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.002250] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.002273] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.002304] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.002388] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.002459] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.002510] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.002577] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.002624] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.002690] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.002713] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002745] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002781] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002804] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002826] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002919] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002944] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003088] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.003115] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003139] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003306] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003341] (-) JobUnselected: {'identifier': 'urdf_tutorial_r2d2'}
+[0.003401] (ros_fundamental) JobQueued: {'identifier': 'ros_fundamental', 'dependencies': OrderedDict()}
+[0.003432] (ros_fundamental) JobStarted: {'identifier': 'ros_fundamental'}
+[0.099424] (-) TimerEvent: {}
+[0.143442] (ros_fundamental) JobProgress: {'identifier': 'ros_fundamental', 'progress': 'cmake'}
+[0.144245] (ros_fundamental) JobProgress: {'identifier': 'ros_fundamental', 'progress': 'build'}
+[0.145190] (ros_fundamental) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yusuf/ros2_ws/build/ros_fundamental', '--', '-j8', '-l8'], 'cwd': '/home/yusuf/ros2_ws/build/ros_fundamental', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yusuf'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yusuf/ros2_ws/install/ros2_control_demo_example_14/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yusuf'), ('OLDPWD', '/home/yusuf'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yusuf/ros2_ws/install:/home/yusuf/assignment_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yusuf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yusuf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yusuf-HP-ENVY-Laptop-13-ad1xx:@/tmp/.ICE-unix/2640,unix/yusuf-HP-ENVY-Laptop-13-ad1xx:/tmp/.ICE-unix/2640'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8211bd59_6374_44e9_83b6_eec8acc9496e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_simulations:/home/yusuf/ros2_ws/install/turtlebot3_bringup:/home/yusuf/ros2_ws/install/turtlebot3_navigation2:/home/yusuf/ros2_ws/install/turtlebot3_gazebo:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/turtlebot3_description:/home/yusuf/ros2_ws/install/ros_fundamental:/home/yusuf/ros2_ws/install/ros2_control_demo_description:/home/yusuf/ros2_ws/install/robot_test:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/ros2_ws/install/robot_cpp:/home/yusuf/ros2_ws/install/robot_control:/home/yusuf/ros2_ws/install/point_cloud_processing:/home/yusuf/ros2_ws/install/navigation_tb3:/home/yusuf/ros2_ws/install/navigation_1:/home/yusuf/ros2_ws/install/navigation_:/home/yusuf/ros2_ws/install/my_cpp_py_pkg:/home/yusuf/ros2_ws/install/drive_turtle:/home/yusuf/ros2_ws/install/drive_tb3:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yusuf/ros2_ws/build/ros_fundamental'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/yusuf/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/yusuf/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/yusuf/ros2_ws/install/robot_python/lib/python3.10/site-packages:/home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages:/home/yusuf/ros2_ws/install/navigation_1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yusuf/ros2_ws/install/turtlebot3:/home/yusuf/ros2_ws/install/turtlebot3_simulations:/home/yusuf/ros2_ws/install/turtlebot3_bringup:/home/yusuf/ros2_ws/install/turtlebot3_node:/home/yusuf/ros2_ws/install/turtlebot3_navigation2:/home/yusuf/ros2_ws/install/turtlebot3_gazebo:/home/yusuf/ros2_ws/install/turtlebot3_description:/home/yusuf/ros2_ws/install/turtlebot3_cartographer:/home/yusuf/ros2_ws/install/ros_fundamental:/home/yusuf/ros2_ws/install/ros2_control_demo_example_14:/home/yusuf/ros2_ws/install/ros2_control_demo_description:/home/yusuf/ros2_ws/install/robot_test:/home/yusuf/ros2_ws/install/robot_cpp:/home/yusuf/ros2_ws/install/robot_control:/home/yusuf/ros2_ws/install/point_cloud_processing:/home/yusuf/ros2_ws/install/navigation_tb3:/home/yusuf/ros2_ws/install/navigation_1:/home/yusuf/ros2_ws/install/navigation_:/home/yusuf/ros2_ws/install/my_cpp_py_pkg:/home/yusuf/ros2_ws/install/drive_turtle:/home/yusuf/ros2_ws/install/drive_tb3:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble')]), 'shell': False}
+[0.188726] (ros_fundamental) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199570] (-) TimerEvent: {}
+[0.300212] (-) TimerEvent: {}
+[0.400729] (-) TimerEvent: {}
+[0.405317] (ros_fundamental) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.484917] (ros_fundamental) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.489687] (ros_fundamental) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500852] (-) TimerEvent: {}
+[0.507476] (ros_fundamental) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.532039] (ros_fundamental) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.564065] (ros_fundamental) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601176] (-) TimerEvent: {}
+[0.666474] (ros_fundamental) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.669612] (ros_fundamental) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701295] (-) TimerEvent: {}
+[0.801780] (-) TimerEvent: {}
+[0.902529] (-) TimerEvent: {}
+[0.957901] (ros_fundamental) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002662] (-) TimerEvent: {}
+[1.103004] (-) TimerEvent: {}
+[1.195820] (ros_fundamental) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.203168] (-) TimerEvent: {}
+[1.275043] (ros_fundamental) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.303315] (-) TimerEvent: {}
+[1.403699] (-) TimerEvent: {}
+[1.404569] (ros_fundamental) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.503846] (-) TimerEvent: {}
+[1.604248] (-) TimerEvent: {}
+[1.704648] (-) TimerEvent: {}
+[1.805037] (-) TimerEvent: {}
+[1.905419] (-) TimerEvent: {}
+[1.969827] (ros_fundamental) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.005516] (-) TimerEvent: {}
+[2.009137] (ros_fundamental) StdoutLine: {'line': b'-- Generating done\n'}
+[2.011872] (ros_fundamental) StdoutLine: {'line': b'-- Build files have been written to: /home/yusuf/ros2_ws/build/ros_fundamental\n'}
+[2.056104] (ros_fundamental) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drive_turtle\x1b[0m\n'}
+[2.057877] (ros_fundamental) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[2.058372] (ros_fundamental) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tf_static\x1b[0m\n'}
+[2.060322] (ros_fundamental) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[2.060645] (ros_fundamental) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target odom_kinematic\x1b[0m\n'}
+[2.095862] (ros_fundamental) StdoutLine: {'line': b'[ 40%] Built target tf_static\n'}
+[2.096444] (ros_fundamental) StdoutLine: {'line': b'[ 40%] Built target drive_turtle\n'}
+[2.096816] (ros_fundamental) StdoutLine: {'line': b'[ 60%] Built target listener\n'}
+[2.100043] (ros_fundamental) StdoutLine: {'line': b'[ 80%] Built target talker\n'}
+[2.102449] (ros_fundamental) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/odom_kinematic.dir/src/odom_kinematic.cpp.o\x1b[0m\n'}
+[2.105622] (-) TimerEvent: {}
+[2.205886] (-) TimerEvent: {}
+[2.306253] (-) TimerEvent: {}
+[2.406742] (-) TimerEvent: {}
+[2.507107] (-) TimerEvent: {}
+[2.607491] (-) TimerEvent: {}
+[2.707845] (-) TimerEvent: {}
+[2.808220] (-) TimerEvent: {}
+[2.908548] (-) TimerEvent: {}
+[3.008868] (-) TimerEvent: {}
+[3.109310] (-) TimerEvent: {}
+[3.209736] (-) TimerEvent: {}
+[3.310115] (-) TimerEvent: {}
+[3.410550] (-) TimerEvent: {}
+[3.510940] (-) TimerEvent: {}
+[3.611294] (-) TimerEvent: {}
+[3.711667] (-) TimerEvent: {}
+[3.812228] (-) TimerEvent: {}
+[3.912567] (-) TimerEvent: {}
+[4.012944] (-) TimerEvent: {}
+[4.113301] (-) TimerEvent: {}
+[4.213681] (-) TimerEvent: {}
+[4.314093] (-) TimerEvent: {}
+[4.414516] (-) TimerEvent: {}
+[4.514963] (-) TimerEvent: {}
+[4.615342] (-) TimerEvent: {}
+[4.715785] (-) TimerEvent: {}
+[4.816200] (-) TimerEvent: {}
+[4.916631] (-) TimerEvent: {}
+[5.017029] (-) TimerEvent: {}
+[5.117495] (-) TimerEvent: {}
+[5.218001] (-) TimerEvent: {}
+[5.318401] (-) TimerEvent: {}
+[5.418866] (-) TimerEvent: {}
+[5.472594] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KForwardKinematics::ForwardKinematics()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.472982] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:23:138:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.473120] (ros_fundamental) StderrLine: {'line': b'   23 |       subscriber_ = this->create_subscription<geometry_msgs::msg::Twist>("cmd_vel", 10,std::bind(&ForwardKinematics::sub_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[5.473296] (ros_fundamental) StderrLine: {'line': b'      |                                                                                                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.473481] (ros_fundamental) StderrLine: {'line': b'      |                                                                                                                                          \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[5.473606] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:2\x1b[m\x1b[K:\n'}
+[5.473726] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.473848] (ros_fundamental) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[5.473961] (ros_fundamental) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.480048] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:25:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.480798] (ros_fundamental) StderrLine: {'line': b'   25 |       publisher_ = this->create_publisher<nav_msgs::msg::Odometry>("odom", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.481318] (ros_fundamental) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.481502] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.481678] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:3\x1b[m\x1b[K:\n'}
+[5.481855] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.482062] (ros_fundamental) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[5.482227] (ros_fundamental) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.482363] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.482520] (ros_fundamental) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.482668] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.482815] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:25:78:\x1b[m\x1b[K   required from here\n'}
+[5.482953] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.483094] (ros_fundamental) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[5.483246] (ros_fundamental) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.483384] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.483527] (ros_fundamental) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[5.483662] (ros_fundamental) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.483797] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.483935] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:25:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.484079] (ros_fundamental) StderrLine: {'line': b'   25 |       publisher_ = this->create_publisher<nav_msgs::msg::Odometry>("odom", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.484238] (ros_fundamental) StderrLine: {'line': b'      |                                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.484374] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.484511] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:3\x1b[m\x1b[K:\n'}
+[5.484649] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.484816] (ros_fundamental) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[5.484956] (ros_fundamental) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.485092] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.485231] (ros_fundamental) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.485403] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.485551] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:25:78:\x1b[m\x1b[K   required from here\n'}
+[5.485690] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.485832] (ros_fundamental) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[5.485972] (ros_fundamental) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.486108] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.486267] (ros_fundamental) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[5.486392] (ros_fundamental) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.486513] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.486634] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:25:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.486787] (ros_fundamental) StderrLine: {'line': b'   25 |       publisher_ = this->create_publisher<nav_msgs::msg::Odometry>("odom", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.486906] (ros_fundamental) StderrLine: {'line': b'      |                                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.487020] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.487138] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:3\x1b[m\x1b[K:\n'}
+[5.487257] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.487377] (ros_fundamental) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[5.487497] (ros_fundamental) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.487615] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.487754] (ros_fundamental) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[5.487877] (ros_fundamental) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.488001] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.488128] (ros_fundamental) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[5.488249] (ros_fundamental) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.488366] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.488493] (ros_fundamental) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[5.488625] (ros_fundamental) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.499199] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.499484] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.499751] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.500133] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.500318] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.500503] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.500828] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.501146] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.501467] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.501591] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.501710] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.501825] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:6\x1b[m\x1b[K:\n'}
+[5.501936] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ForwardKinematics::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.502035] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:55:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.502138] (ros_fundamental) StderrLine: {'line': b'   55 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Pose x: \'%f\' "\x1b[m\x1b[K, x_, "Pose y: \'%f\' ", y_, "Theta: \'%f\' ", t_);\n'}
+[5.502266] (ros_fundamental) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.502371] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:57:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::publish(nav_msgs::msg::Odometry_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.502483] (ros_fundamental) StderrLine: {'line': b'   57 |       \x1b[01;31m\x1b[Kpublisher_->publish(odom)\x1b[m\x1b[K;\n'}
+[5.502598] (ros_fundamental) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.502713] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[5.502830] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[5.502947] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.503066] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.503199] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.503313] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.503433] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.503549] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.503667] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.503787] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.503906] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:6\x1b[m\x1b[K:\n'}
+[5.504046] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.504229] (ros_fundamental) StderrLine: {'line': b'  251 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)\n'}
+[5.504350] (ros_fundamental) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.504467] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.504583] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:57:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<geometry_msgs::msg::Twist_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.504708] (ros_fundamental) StderrLine: {'line': b'   57 |       \x1b[01;36m\x1b[Kpublisher_->publish(odom)\x1b[m\x1b[K;\n'}
+[5.504827] (ros_fundamental) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.504946] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[5.505065] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[5.505184] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.505343] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.505478] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.505602] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.505724] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.505855] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.505975] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.506096] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.506213] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:6\x1b[m\x1b[K:\n'}
+[5.506333] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.506468] (ros_fundamental) StderrLine: {'line': b'  292 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[5.506583] (ros_fundamental) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.506691] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.506797] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ratio:39\x1b[m\x1b[K,\n'}
+[5.506895] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/chrono:39\x1b[m\x1b[K,\n'}
+[5.506994] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:1\x1b[m\x1b[K:\n'}
+[5.507093] (ros_fundamental) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.507198] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, geometry_msgs::msg::Twist_<std::allocator<void> > >::value), void> rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::publish<T>(const T&) [with T = nav_msgs::msg::Odometry_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.507325] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:57:26:\x1b[m\x1b[K   required from here\n'}
+[5.507433] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2579:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.507547] (ros_fundamental) StderrLine: {'line': b' 2579 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[5.507667] (ros_fundamental) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.507783] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[5.507871] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[5.507976] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.508084] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.508198] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.508313] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.508425] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.508538] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.508651] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.508766] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.508881] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:6\x1b[m\x1b[K:\n'}
+[5.508996] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.509152] (ros_fundamental) StderrLine: {'line': b'  322 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, PublishedTypeDeleter> msg)\n'}
+[5.509299] (ros_fundamental) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.509436] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.509547] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:57:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<geometry_msgs::msg::Twist_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.509667] (ros_fundamental) StderrLine: {'line': b'   57 |       \x1b[01;36m\x1b[Kpublisher_->publish(odom)\x1b[m\x1b[K;\n'}
+[5.509791] (ros_fundamental) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.509906] (ros_fundamental) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[5.510020] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[5.510137] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.510256] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.510373] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.510486] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.510597] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.510711] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.510824] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.510937] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.511052] (ros_fundamental) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/ros_fundamental/src/odom_kinematic.cpp:6\x1b[m\x1b[K:\n'}
+[5.511181] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.511307] (ros_fundamental) StderrLine: {'line': b'  364 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[5.511420] (ros_fundamental) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.511531] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.511649] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.511772] (ros_fundamental) StderrLine: {'line': b'  383 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[5.511886] (ros_fundamental) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.511997] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_s&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.512126] (ros_fundamental) StderrLine: {'line': b'  383 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[5.512240] (ros_fundamental) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.512372] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.512519] (ros_fundamental) StderrLine: {'line': b'  389 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[5.512640] (ros_fundamental) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.512761] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.512885] (ros_fundamental) StderrLine: {'line': b'  389 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[5.513007] (ros_fundamental) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.513131] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = geometry_msgs::msg::Twist_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.513289] (ros_fundamental) StderrLine: {'line': b'  403 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)\n'}
+[5.513439] (ros_fundamental) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.513561] (ros_fundamental) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.513690] (ros_fundamental) StderrLine: {'line': b'  403 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[5.513814] (ros_fundamental) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.518936] (-) TimerEvent: {}
+[5.619286] (-) TimerEvent: {}
+[5.719767] (-) TimerEvent: {}
+[5.820223] (-) TimerEvent: {}
+[5.920664] (-) TimerEvent: {}
+[6.021132] (-) TimerEvent: {}
+[6.121617] (-) TimerEvent: {}
+[6.185255] (ros_fundamental) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/odom_kinematic.dir/build.make:76: CMakeFiles/odom_kinematic.dir/src/odom_kinematic.cpp.o] Error 1\n'}
+[6.185677] (ros_fundamental) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/odom_kinematic.dir/all] Error 2\n'}
+[6.186064] (ros_fundamental) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.188608] (ros_fundamental) CommandEnded: {'returncode': 2}
+[6.221735] (-) TimerEvent: {}
+[6.314335] (ros_fundamental) JobEnded: {'identifier': 'ros_fundamental', 'rc': 2}
+[6.322203] (-) TimerEvent: {}
+[6.326046] (-) EventReactorShutdown: {}
