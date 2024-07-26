@@ -1,2 +1,0 @@
-Invoking command in '/home/yusuf/ros2_ws/build/robot_cpp': /usr/bin/cmake /home/yusuf/ros2_ws/src/robot_cpp -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/robot_cpp
-Invoked command in '/home/yusuf/ros2_ws/build/robot_cpp' returned '1': /usr/bin/cmake /home/yusuf/ros2_ws/src/robot_cpp -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/robot_cpp

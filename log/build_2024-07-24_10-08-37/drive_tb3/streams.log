@@ -1,0 +1,49 @@
+[0.777s] Invoking command in '/home/yusuf/ros2_ws/build/drive_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/drive_tb3 -- -j8 -l8
+[0.953s] [  4%] [32mBuilding CXX object CMakeFiles/p2_multi_tb3_sqaure_drive.dir/src/p2_multi_tb3_sqaure_drive.cpp.o[0m
+[0.969s] [  9%] [32mBuilding CXX object CMakeFiles/p3_d_xy_goal.dir/src/p3_d_xy_goal.cpp.o[0m
+[0.970s] [ 13%] [32mBuilding CXX object CMakeFiles/p3_c_linear_goal.dir/src/p3_c_linear_goal.cpp.o[0m
+[0.970s] [ 18%] [32mBuilding CXX object CMakeFiles/p3_b_angular_velocity.dir/src/p3_b_angular_velocity.cpp.o[0m
+[0.970s] [ 22%] [32mBuilding CXX object CMakeFiles/p5_c_camera_data_sub.dir/src/p5_c_camera_data_sub.cpp.o[0m
+[0.983s] [ 27%] [32mBuilding CXX object CMakeFiles/p5_a_lidar_data_sub.dir/src/p5_a_lidar_data_sub.cpp.o[0m
+[0.993s] [ 31%] [32mBuilding CXX object CMakeFiles/p3_a_acceleration.dir/src/p3_a_acceleration.cpp.o[0m
+[1.110s] [ 36%] [32mBuilding CXX object CMakeFiles/p5_b_maze_solving.dir/src/p5_b_maze_solving.cpp.o[0m
+[12.298s] [01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_tb3/src/p5_b_maze_solving.cpp:[m[K In member function ‘[01m[Kvoid lidar_subscriber::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.298s] [01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_tb3/src/p5_b_maze_solving.cpp:51:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KOUT_OF_MAZE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[12.298s]    51 |         switch [01;35m[K([m[Kstate_)
+[12.301s]       |                [01;35m[K^[m[K
+[16.391s] [ 40%] [32m[1mLinking CXX executable p3_a_acceleration[0m
+[17.966s] [ 40%] Built target p3_a_acceleration
+[18.087s] [ 45%] [32mBuilding CXX object CMakeFiles/p5_d_line_following.dir/src/p5_d_line_following.cpp.o[0m
+[29.846s] [ 50%] [32m[1mLinking CXX executable p2_multi_tb3_sqaure_drive[0m
+[31.292s] [ 50%] Built target p2_multi_tb3_sqaure_drive
+[31.315s] [ 54%] [32m[1mLinking CXX executable p3_b_angular_velocity[0m
+[31.523s] [ 59%] [32mBuilding CXX object CMakeFiles/p6_a_occupancy_grid.dir/src/p6_a_occupancy_grid.cpp.o[0m
+[32.282s] [ 59%] Built target p3_b_angular_velocity
+[32.365s] [ 63%] [32mBuilding CXX object CMakeFiles/p6_b_sdf_spawner.dir/src/p6_b_sdf_spawner.cpp.o[0m
+[41.294s] [ 68%] [32m[1mLinking CXX executable p3_c_linear_goal[0m
+[43.255s] [ 68%] Built target p3_c_linear_goal
+[45.889s] [ 72%] [32m[1mLinking CXX executable p5_b_maze_solving[0m
+[47.205s] [ 77%] [32m[1mLinking CXX executable p6_b_sdf_spawner[0m
+[47.273s] [ 81%] [32m[1mLinking CXX executable p3_d_xy_goal[0m
+[47.565s] [ 81%] Built target p5_b_maze_solving
+[47.901s] [ 81%] Built target p6_b_sdf_spawner
+[48.164s] [ 86%] [32m[1mLinking CXX executable p5_a_lidar_data_sub[0m
+[48.265s] gmake[2]: *** wait: No child processes.  Stop.
+[48.266s] gmake[2]: *** wait: No child processes.  Stop.
+[48.266s] gmake[2]: *** wait: No child processes.  Stop.
+[48.267s] gmake[2]: *** Deleting file 'p5_a_lidar_data_sub'
+[48.267s] gmake[2]: *** Deleting file 'p3_d_xy_goal'
+[48.268s] gmake[2]: *** [CMakeFiles/p3_d_xy_goal.dir/build.make:176: p3_d_xy_goal] Interrupt
+[48.268s] gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/p3_d_xy_goal.dir/all] Interrupt
+[48.269s] gmake[2]: *** Waiting for unfinished jobs....
+[48.269s] gmake[2]: *** Waiting for unfinished jobs....
+[48.269s] gmake[2]: *** [CMakeFiles/p5_a_lidar_data_sub.dir/build.make:175: p5_a_lidar_data_sub] Interrupt
+[48.270s] gmake[2]: *** Waiting for unfinished jobs....
+[48.270s] gmake[2]: *** wait: No child processes.  Stop.
+[48.271s] gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/p5_a_lidar_data_sub.dir/all] Interrupt
+[48.271s] gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/p5_c_camera_data_sub.dir/all] Error 2
+[48.271s] gmake[2]: *** wait: No child processes.  Stop.
+[48.272s] gmake[2]: *** wait: No child processes.  Stop.
+[48.272s] gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/p6_a_occupancy_grid.dir/all] Error 2
+[48.272s] gmake[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/p5_d_line_following.dir/all] Error 2
+[48.273s] gmake: *** [Makefile:146: all] Interrupt

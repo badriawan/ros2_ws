@@ -1,0 +1,15 @@
+[0.775s] Invoking command in '/home/yusuf/ros2_ws/build/LineFollower': /usr/bin/cmake --build /home/yusuf/ros2_ws/build/LineFollower -- -j8 -l8
+[0.860s] [35m[1mConsolidate compiler generated dependencies of target PRL[0m
+[0.896s] [ 60%] Built target LFH
+[0.905s] [ 80%] [32mBuilding CXX object CMakeFiles/PRL.dir/pointer_robot_location.cpp.o[0m
+[2.033s] [01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[2.034s] [01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:21:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<int>* inputdatap[m[K’
+[2.034s]    21 |   vector<int>* [01;31m[Kinputdatap[m[K = new vector<int>{20, 34, 67};
+[2.034s]       |                [01;31m[K^~~~~~~~~~[m[K
+[2.034s] [01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:16:16:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<int>* inputdatap[m[K’ previously declared here
+[2.034s]    16 |   vector<int>* [01;36m[Kinputdatap[m[K = &inputdata; // variable pointer harus pakai
+[2.034s]       |                [01;36m[K^~~~~~~~~~[m[K
+[2.248s] gmake[2]: *** [CMakeFiles/PRL.dir/build.make:76: CMakeFiles/PRL.dir/pointer_robot_location.cpp.o] Error 1
+[2.248s] gmake[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/PRL.dir/all] Error 2
+[2.250s] gmake: *** [Makefile:91: all] Error 2
+[2.254s] Invoked command in '/home/yusuf/ros2_ws/build/LineFollower' returned '2': /usr/bin/cmake --build /home/yusuf/ros2_ws/build/LineFollower -- -j8 -l8

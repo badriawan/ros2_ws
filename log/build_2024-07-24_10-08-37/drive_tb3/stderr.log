@@ -1,0 +1,23 @@
+[01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_tb3/src/p5_b_maze_solving.cpp:[m[K In member function ‘[01m[Kvoid lidar_subscriber::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_tb3/src/p5_b_maze_solving.cpp:51:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KOUT_OF_MAZE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   51 |         switch [01;35m[K([m[Kstate_)
+      |                [01;35m[K^[m[K
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Deleting file 'p5_a_lidar_data_sub'
+gmake[2]: *** Deleting file 'p3_d_xy_goal'
+gmake[2]: *** [CMakeFiles/p3_d_xy_goal.dir/build.make:176: p3_d_xy_goal] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/p3_d_xy_goal.dir/all] Interrupt
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/p5_a_lidar_data_sub.dir/build.make:175: p5_a_lidar_data_sub] Interrupt
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/p5_a_lidar_data_sub.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/p5_c_camera_data_sub.dir/all] Error 2
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/p6_a_occupancy_grid.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/p5_d_line_following.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

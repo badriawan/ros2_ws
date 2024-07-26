@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_12[0m
+[ 20%] Built target passthrough_controller_parameters
+[ 60%] Built target ros2_control_demo_example_12
+[35m[1mConsolidate compiler generated dependencies of target passthrough_controller[0m
+[100%] Built target passthrough_controller

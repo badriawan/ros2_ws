@@ -1,0 +1,12 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/p1_single_straight_drive.dir/src/p1_a_single_straight_drive.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/p1_multi_straight_drive.dir/src/p1_b_multi_straight_drive.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/test_run.dir/src/test_run.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/p1_multi_turtle_controller.dir/src/p1_c_multi_turtle_controller.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable p1_single_straight_drive[0m
+[ 62%] Built target p1_single_straight_drive
+[ 75%] [32m[1mLinking CXX executable p1_multi_turtle_controller[0m
+[ 87%] [32m[1mLinking CXX executable p1_multi_straight_drive[0m
+[ 87%] Built target p1_multi_turtle_controller
+[ 87%] Built target p1_multi_straight_drive
+[100%] [32m[1mLinking CXX executable test_run[0m
+[100%] Built target test_run

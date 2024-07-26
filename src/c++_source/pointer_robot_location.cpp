@@ -18,7 +18,7 @@ int main() {
   //*p = variabel pointer = nilai variabel (dapat diolah)
   // p = pointer = alamat memori (tidak dapat diolah nilainya)
 
-  vector<int>* inputdatap = new vector<int>{20, 34, 67};
+  //vector<int>* inputdatap = new vector<int>{20, 34, 67};
   //auto inputdata = make_unique<vector<int>>(initializer_list<int>(20,34,67));
   Processdata(3, inputdatap);
 

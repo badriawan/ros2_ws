@@ -1,0 +1,2 @@
+Invoking command in '/home/yusuf/ros2_ws/build/LineFollower': /usr/bin/cmake --build /home/yusuf/ros2_ws/build/LineFollower -- -j8 -l8
+Invoked command in '/home/yusuf/ros2_ws/build/LineFollower' returned '0': /usr/bin/cmake --build /home/yusuf/ros2_ws/build/LineFollower -- -j8 -l8

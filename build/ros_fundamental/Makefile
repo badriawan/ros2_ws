@@ -249,19 +249,6 @@ tf_static/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_static.dir/build.make CMakeFiles/tf_static.dir/build
 .PHONY : tf_static/fast
 
-#=============================================================================
-# Target rules for targets named odom_kinematic
-
-# Build rule for target.
-odom_kinematic: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 odom_kinematic
-.PHONY : odom_kinematic
-
-# fast build rule for target.
-odom_kinematic/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_kinematic.dir/build.make CMakeFiles/odom_kinematic.dir/build
-.PHONY : odom_kinematic/fast
-
 src/drive_turtle.o: src/drive_turtle.cpp.o
 .PHONY : src/drive_turtle.o
 
@@ -285,30 +272,6 @@ src/drive_turtle.s: src/drive_turtle.cpp.s
 src/drive_turtle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drive_turtle.dir/build.make CMakeFiles/drive_turtle.dir/src/drive_turtle.cpp.s
 .PHONY : src/drive_turtle.cpp.s
-
-src/odom_kinematic.o: src/odom_kinematic.cpp.o
-.PHONY : src/odom_kinematic.o
-
-# target to build an object file
-src/odom_kinematic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_kinematic.dir/build.make CMakeFiles/odom_kinematic.dir/src/odom_kinematic.cpp.o
-.PHONY : src/odom_kinematic.cpp.o
-
-src/odom_kinematic.i: src/odom_kinematic.cpp.i
-.PHONY : src/odom_kinematic.i
-
-# target to preprocess a source file
-src/odom_kinematic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_kinematic.dir/build.make CMakeFiles/odom_kinematic.dir/src/odom_kinematic.cpp.i
-.PHONY : src/odom_kinematic.cpp.i
-
-src/odom_kinematic.s: src/odom_kinematic.cpp.s
-.PHONY : src/odom_kinematic.s
-
-# target to generate assembly for a file
-src/odom_kinematic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_kinematic.dir/build.make CMakeFiles/odom_kinematic.dir/src/odom_kinematic.cpp.s
-.PHONY : src/odom_kinematic.cpp.s
 
 src/publisher.o: src/publisher.cpp.o
 .PHONY : src/publisher.o
@@ -399,15 +362,11 @@ help:
 	@echo "... uninstall"
 	@echo "... drive_turtle"
 	@echo "... listener"
-	@echo "... odom_kinematic"
 	@echo "... talker"
 	@echo "... tf_static"
 	@echo "... src/drive_turtle.o"
 	@echo "... src/drive_turtle.i"
 	@echo "... src/drive_turtle.s"
-	@echo "... src/odom_kinematic.o"
-	@echo "... src/odom_kinematic.i"
-	@echo "... src/odom_kinematic.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"

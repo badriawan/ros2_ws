@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target p1_single_straight_drive[0m
+[35m[1mConsolidate compiler generated dependencies of target p1_multi_turtle_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target p1_multi_straight_drive[0m
+[35m[1mConsolidate compiler generated dependencies of target test_run[0m
+[ 25%] Built target p1_single_straight_drive
+[ 50%] Built target p1_multi_turtle_controller
+[ 75%] Built target p1_multi_straight_drive
+[100%] Built target test_run
+-- Install configuration: ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_multi_turtle_controller
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_multi_turtle_controller" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_single_straight_drive
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_single_straight_drive" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_multi_straight_drive
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/p1_multi_straight_drive" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/test_run
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_turtle/lib/drive_turtle/test_run" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/p1_c_multi_robot_controller.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/p1_b_multi_robot_single_sim.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/p1_d_run_multi_turtlesim_drive.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/test_run.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/launch/p1_a_multi_robot_multi_sim.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/ament_index/resource_index/package_run_dependencies/drive_turtle
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/ament_index/resource_index/parent_prefix_path/drive_turtle
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/environment/ament_prefix_path.sh
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/environment/ament_prefix_path.dsv
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/environment/path.sh
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/environment/path.dsv
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/local_setup.bash
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/local_setup.sh
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/local_setup.zsh
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/local_setup.dsv
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/package.dsv
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/ament_index/resource_index/packages/drive_turtle
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/cmake/drive_turtleConfig.cmake
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/cmake/drive_turtleConfig-version.cmake
+-- Installing: /home/yusuf/ros2_ws/install/drive_turtle/share/drive_turtle/package.xml

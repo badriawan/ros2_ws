@@ -1,0 +1,46 @@
+[0.083s] Invoking command in '/home/yusuf/ros2_ws/build/ros2_control_demo_example_14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/ros2_control_demo_example_14 -- -j8 -l8
+[0.570s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_14[0m
+[0.570s] [100%] Built target ros2_control_demo_example_14
+[0.953s] Invoked command in '/home/yusuf/ros2_ws/build/ros2_control_demo_example_14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/ros2_control_demo_example_14 -- -j8 -l8
+[1.051s] Invoking command in '/home/yusuf/ros2_ws/build/ros2_control_demo_example_14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/ros2_control_demo_example_14
+[1.114s] -- Install configuration: ""
+[1.114s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/ros2_control_demo_example_14.xml
+[1.114s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/include/ros2_control_demo_example_14
+[1.115s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/include/ros2_control_demo_example_14/ros2_control_demo_example_14
+[1.116s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/include/ros2_control_demo_example_14/ros2_control_demo_example_14/rrbot_actuator_without_feedback.hpp
+[1.116s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/include/ros2_control_demo_example_14/ros2_control_demo_example_14/rrbot_sensor_for_position_feedback.hpp
+[1.116s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/include/ros2_control_demo_example_14/ros2_control_demo_example_14/visibility_control.h
+[1.116s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/launch
+[1.116s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/launch/view_robot.launch.py
+[1.117s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/ros2_control
+[1.117s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/ros2_control/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.ros2_control.xacro
+[1.117s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/urdf
+[1.118s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/urdf/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.urdf.xacro
+[1.119s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/launch
+[1.120s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/launch/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.launch.py
+[1.123s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/config
+[1.125s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/config/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.yaml
+[1.126s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/lib/libros2_control_demo_example_14.so
+[1.126s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/library_path.sh
+[1.126s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/library_path.dsv
+[1.127s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_14
+[1.127s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_14
+[1.127s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/ament_prefix_path.sh
+[1.128s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/ament_prefix_path.dsv
+[1.128s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/path.sh
+[1.128s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/path.dsv
+[1.129s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/local_setup.bash
+[1.129s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/local_setup.sh
+[1.130s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/local_setup.zsh
+[1.131s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/local_setup.dsv
+[1.131s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/package.dsv
+[1.131s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ament_index/resource_index/packages/ros2_control_demo_example_14
+[1.132s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_14
+[1.132s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/export_ros2_control_demo_example_14Export.cmake
+[1.132s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/export_ros2_control_demo_example_14Export-noconfig.cmake
+[1.133s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/ament_cmake_export_targets-extras.cmake
+[1.133s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.133s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/ros2_control_demo_example_14Config.cmake
+[1.133s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/ros2_control_demo_example_14Config-version.cmake
+[1.133s] -- Up-to-date: /home/yusuf/ros2_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/package.xml
+[1.172s] Invoked command in '/home/yusuf/ros2_ws/build/ros2_control_demo_example_14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/ros2_control_demo_example_14

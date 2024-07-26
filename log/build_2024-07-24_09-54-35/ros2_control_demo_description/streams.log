@@ -1,0 +1,81 @@
+[0.089s] Invoking command in '/home/yusuf/ros2_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/ros2_control_demos/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/ros2_control_demo_description
+[0.865s] -- The C compiler identification is GNU 11.4.0
+[0.865s] -- The CXX compiler identification is GNU 11.4.0
+[0.866s] -- Detecting C compiler ABI info
+[0.866s] -- Detecting C compiler ABI info - done
+[0.866s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.866s] -- Detecting C compile features
+[0.866s] -- Detecting C compile features - done
+[0.866s] -- Detecting CXX compiler ABI info
+[0.866s] -- Detecting CXX compiler ABI info - done
+[0.867s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.867s] -- Detecting CXX compile features
+[0.867s] -- Detecting CXX compile features - done
+[0.880s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.344s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.907s] -- Configuring done
+[1.912s] -- Generating done
+[1.914s] -- Build files have been written to: /home/yusuf/ros2_ws/build/ros2_control_demo_description
+[1.921s] Invoked command in '/home/yusuf/ros2_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/ros2_control_demos/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/ros2_control_demo_description
+[1.934s] Invoking command in '/home/yusuf/ros2_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/ros2_control_demo_description -- -j8 -l8
+[2.021s] Invoked command in '/home/yusuf/ros2_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/ros2_control_demo_description -- -j8 -l8
+[2.107s] Invoking command in '/home/yusuf/ros2_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/ros2_control_demo_description
+[2.124s] -- Install configuration: ""
+[2.124s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf
+[2.124s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[2.134s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[2.135s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz
+[2.135s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[2.136s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf
+[2.136s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[2.136s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[2.138s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz
+[2.139s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[2.139s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[2.139s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf
+[2.139s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro
+[2.139s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro
+[2.139s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz
+[2.140s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz
+[2.143s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz
+[2.147s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes
+[2.147s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual
+[2.147s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[2.161s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[2.161s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[2.161s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[2.162s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[2.164s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[2.165s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[2.166s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision
+[2.167s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[2.167s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[2.169s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[2.170s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[2.170s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[2.171s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[2.172s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[2.175s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf
+[2.175s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[2.177s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf
+[2.180s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[2.180s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc
+[2.180s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[2.181s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz
+[2.181s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[2.183s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[2.183s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[2.184s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[2.184s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[2.184s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[2.184s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[2.184s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[2.184s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[2.185s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[2.185s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[2.185s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[2.185s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[2.185s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[2.185s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[2.186s] -- Installing: /home/yusuf/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[2.200s] Invoked command in '/home/yusuf/ros2_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_ws/build/ros2_control_demo_description

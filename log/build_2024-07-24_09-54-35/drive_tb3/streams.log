@@ -1,0 +1,41 @@
+[0.165s] Invoking command in '/home/yusuf/ros2_ws/build/drive_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_tb3 -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/drive_tb3
+[2.462s] -- The C compiler identification is GNU 11.4.0
+[2.463s] -- The CXX compiler identification is GNU 11.4.0
+[2.463s] -- Detecting C compiler ABI info
+[2.463s] -- Detecting C compiler ABI info - done
+[2.464s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.464s] -- Detecting C compile features
+[2.464s] -- Detecting C compile features - done
+[2.465s] -- Detecting CXX compiler ABI info
+[2.656s] -- Detecting CXX compiler ABI info - done
+[2.715s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.716s] -- Detecting CXX compile features
+[2.718s] -- Detecting CXX compile features - done
+[2.750s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.945s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.961s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[5.543s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.609s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.715s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.892s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.865s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.907s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.880s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.429s] -- Looking for pthread.h
+[8.771s] -- Looking for pthread.h - found
+[8.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.215s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.220s] -- Found Threads: TRUE  
+[9.973s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.162s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[10.523s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[10.628s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.048s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[11.154s] -- Found OpenCV: /usr (found version "4.5.4") 
+[11.179s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[12.288s] -- Configuring done
+[12.400s] -- Generating done
+[12.405s] -- Build files have been written to: /home/yusuf/ros2_ws/build/drive_tb3

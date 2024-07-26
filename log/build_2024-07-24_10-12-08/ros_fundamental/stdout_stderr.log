@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yusuf/ros2_ws/build/ros_fundamental
+[ 12%] [32mBuilding CXX object CMakeFiles/tf_static.dir/src/tf_static.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/drive_turtle.dir/src/drive_turtle.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable tf_static[0m
+[ 62%] Built target tf_static
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[ 87%] [32m[1mLinking CXX executable drive_turtle[0m
+[ 87%] Built target drive_turtle
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/talker
+-- Set runtime path of "/home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/talker" to ""
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/listener
+-- Set runtime path of "/home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/listener" to ""
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/drive_turtle
+-- Set runtime path of "/home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/drive_turtle" to ""
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/tf_static
+-- Set runtime path of "/home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/tf_static" to ""
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/gazebo.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/turtletest.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/rviz.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_4.urdf
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_3.urdf
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_2.urdf
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/manipulator.urdf
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_drive.urdf
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/package_run_dependencies/ros_fundamental
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/parent_prefix_path/ros_fundamental
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/ament_prefix_path.sh
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/ament_prefix_path.dsv
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/path.sh
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/environment/path.dsv
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.bash
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.sh
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.zsh
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/local_setup.dsv
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/package.dsv
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ament_index/resource_index/packages/ros_fundamental
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/cmake/ros_fundamentalConfig.cmake
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/cmake/ros_fundamentalConfig-version.cmake
+-- Installing: /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/package.xml

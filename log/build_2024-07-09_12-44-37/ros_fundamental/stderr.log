@@ -1,4 +1,0 @@
-[01m[K/home/yusuf/ros2_ws/src/ros_fundamental/src/drive_turtle.cpp:[m[K In member function ‘[01m[Kvoid DriveTurtle::timer_callback()[m[K’:
-[01m[K/home/yusuf/ros2_ws/src/ros_fundamental/src/drive_turtle.cpp:34:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kforward_[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
-   34 |       [01;35m[Kif[m[K (forward_){
-      |       [01;35m[K^~[m[K

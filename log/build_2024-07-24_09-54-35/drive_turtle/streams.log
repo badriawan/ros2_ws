@@ -1,0 +1,36 @@
+[0.146s] Invoking command in '/home/yusuf/ros2_ws/build/drive_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_turtle -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/drive_turtle
+[2.420s] -- The C compiler identification is GNU 11.4.0
+[2.420s] -- The CXX compiler identification is GNU 11.4.0
+[2.421s] -- Detecting C compiler ABI info
+[2.421s] -- Detecting C compiler ABI info - done
+[2.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.422s] -- Detecting C compile features
+[2.422s] -- Detecting C compile features - done
+[2.423s] -- Detecting CXX compiler ABI info
+[2.495s] -- Detecting CXX compiler ABI info - done
+[2.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.595s] -- Detecting CXX compile features
+[2.597s] -- Detecting CXX compile features - done
+[2.629s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.152s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.127s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[5.818s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.919s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.067s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.992s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.040s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.844s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.052s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.456s] -- Looking for pthread.h
+[8.844s] -- Looking for pthread.h - found
+[8.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.163s] -- Found Threads: TRUE  
+[10.048s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[10.742s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[11.311s] -- Configuring done
+[11.385s] -- Generating done
+[11.391s] -- Build files have been written to: /home/yusuf/ros2_ws/build/drive_turtle

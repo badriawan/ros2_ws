@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target PRL[0m
+[ 60%] Built target LFH
+[ 80%] [32mBuilding CXX object CMakeFiles/PRL.dir/pointer_robot_location.cpp.o[0m
+[100%] [32m[1mLinking CXX executable PRL[0m
+[100%] Built target PRL

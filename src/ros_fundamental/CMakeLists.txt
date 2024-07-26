@@ -32,15 +32,13 @@ ament_target_dependencies(drive_turtle rclcpp std_msgs geometry_msgs)
 add_executable(tf_static src/tf_static.cpp)
 ament_target_dependencies(tf_static rclcpp std_msgs geometry_msgs tf2_ros)
 
-add_executable(odom_kinematic src/odom_kinematic.cpp)
-ament_target_dependencies(odom_kinematic rclcpp std_msgs geometry_msgs nav_msgs)
+
 
 install(TARGETS
   talker
   listener
   drive_turtle
   tf_static
-  odom_kinematic
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY

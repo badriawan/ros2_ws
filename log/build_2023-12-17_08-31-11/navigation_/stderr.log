@@ -1,4 +1,0 @@
-error: Invalid distribution name or version syntax: navigation--0.0.0
-gmake[2]: *** [CMakeFiles/ament_cmake_python_build_navigation__egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_navigation__egg] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/ament_cmake_python_build_navigation__egg.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

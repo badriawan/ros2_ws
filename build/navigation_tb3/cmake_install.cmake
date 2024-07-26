@@ -89,7 +89,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/usr/bin/python3.10" "-m" "compileall"
+        "/usr/bin/python3" "-m" "compileall"
         "/home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3"
       )
 endif()

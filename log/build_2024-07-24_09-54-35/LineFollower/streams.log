@@ -1,0 +1,34 @@
+[0.154s] Invoking command in '/home/yusuf/ros2_ws/build/LineFollower': /usr/bin/cmake /home/yusuf/ros2_ws/src/c++_source -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/LineFollower
+[0.719s] -- The C compiler identification is GNU 11.4.0
+[1.208s] -- The CXX compiler identification is GNU 11.4.0
+[1.323s] -- Detecting C compiler ABI info
+[1.806s] -- Detecting C compiler ABI info - done
+[1.866s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.867s] -- Detecting C compile features
+[1.869s] -- Detecting C compile features - done
+[1.903s] -- Detecting CXX compiler ABI info
+[2.524s] -- Detecting CXX compiler ABI info - done
+[2.595s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.596s] -- Detecting CXX compile features
+[2.598s] -- Detecting CXX compile features - done
+[2.603s] -- Configuring done
+[2.618s] -- Generating done
+[2.621s] -- Build files have been written to: /home/yusuf/ros2_ws/build/LineFollower
+[2.661s] Invoked command in '/home/yusuf/ros2_ws/build/LineFollower' returned '0': /usr/bin/cmake /home/yusuf/ros2_ws/src/c++_source -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_ws/install/LineFollower
+[2.663s] Invoking command in '/home/yusuf/ros2_ws/build/LineFollower': /usr/bin/cmake --build /home/yusuf/ros2_ws/build/LineFollower -- -j8 -l8
+[5.537s] [ 20%] [32mBuilding CXX object CMakeFiles/LFH.dir/LF_main.cpp.o[0m
+[5.538s] [ 40%] [32mBuilding CXX object CMakeFiles/LFH.dir/linefollowing.cpp.o[0m
+[6.870s] [ 60%] [32m[1mLinking CXX executable LFH[0m
+[7.279s] [ 60%] Built target LFH
+[7.367s] [ 80%] [32mBuilding CXX object CMakeFiles/PRL.dir/pointer_robot_location.cpp.o[0m
+[8.341s] [01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[8.341s] [01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:21:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<int>* inputdatap[m[K’
+[8.342s]    21 |   vector<int>* [01;31m[Kinputdatap[m[K = new vector<int>{20, 34, 67};
+[8.342s]       |                [01;31m[K^~~~~~~~~~[m[K
+[8.342s] [01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:16:16:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<int>* inputdatap[m[K’ previously declared here
+[8.343s]    16 |   vector<int>* [01;36m[Kinputdatap[m[K = &inputdata; // variable pointer harus pakai
+[8.343s]       |                [01;36m[K^~~~~~~~~~[m[K
+[8.498s] gmake[2]: *** [CMakeFiles/PRL.dir/build.make:76: CMakeFiles/PRL.dir/pointer_robot_location.cpp.o] Error 1
+[8.501s] gmake[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/PRL.dir/all] Error 2
+[8.502s] gmake: *** [Makefile:91: all] Error 2
+[8.514s] Invoked command in '/home/yusuf/ros2_ws/build/LineFollower' returned '2': /usr/bin/cmake --build /home/yusuf/ros2_ws/build/LineFollower -- -j8 -l8

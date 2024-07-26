@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_navigation_tb3_egg.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_build_navigation_tb3_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_navigation_tb3_egg:
-	cd /home/yusuf/ros2_ws/build/navigation_tb3/ament_cmake_python/navigation_tb3 && /usr/bin/python3.10 setup.py egg_info
+	cd /home/yusuf/ros2_ws/build/navigation_tb3/ament_cmake_python/navigation_tb3 && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_navigation_tb3_egg: CMakeFiles/ament_cmake_python_build_navigation_tb3_egg
 ament_cmake_python_build_navigation_tb3_egg: CMakeFiles/ament_cmake_python_build_navigation_tb3_egg.dir/build.make

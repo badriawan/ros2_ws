@@ -1,0 +1,25 @@
+[  4%] [32mBuilding CXX object CMakeFiles/p2_multi_tb3_sqaure_drive.dir/src/p2_multi_tb3_sqaure_drive.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/p3_d_xy_goal.dir/src/p3_d_xy_goal.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/p3_c_linear_goal.dir/src/p3_c_linear_goal.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/p3_b_angular_velocity.dir/src/p3_b_angular_velocity.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/p5_c_camera_data_sub.dir/src/p5_c_camera_data_sub.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/p5_a_lidar_data_sub.dir/src/p5_a_lidar_data_sub.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/p3_a_acceleration.dir/src/p3_a_acceleration.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/p5_b_maze_solving.dir/src/p5_b_maze_solving.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable p3_a_acceleration[0m
+[ 40%] Built target p3_a_acceleration
+[ 45%] [32mBuilding CXX object CMakeFiles/p5_d_line_following.dir/src/p5_d_line_following.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable p2_multi_tb3_sqaure_drive[0m
+[ 50%] Built target p2_multi_tb3_sqaure_drive
+[ 54%] [32m[1mLinking CXX executable p3_b_angular_velocity[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/p6_a_occupancy_grid.dir/src/p6_a_occupancy_grid.cpp.o[0m
+[ 59%] Built target p3_b_angular_velocity
+[ 63%] [32mBuilding CXX object CMakeFiles/p6_b_sdf_spawner.dir/src/p6_b_sdf_spawner.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable p3_c_linear_goal[0m
+[ 68%] Built target p3_c_linear_goal
+[ 72%] [32m[1mLinking CXX executable p5_b_maze_solving[0m
+[ 77%] [32m[1mLinking CXX executable p6_b_sdf_spawner[0m
+[ 81%] [32m[1mLinking CXX executable p3_d_xy_goal[0m
+[ 81%] Built target p5_b_maze_solving
+[ 81%] Built target p6_b_sdf_spawner
+[ 86%] [32m[1mLinking CXX executable p5_a_lidar_data_sub[0m

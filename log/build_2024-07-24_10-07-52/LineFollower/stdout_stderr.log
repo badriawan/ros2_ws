@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target PRL[0m
+[35m[1mConsolidate compiler generated dependencies of target LFH[0m
+[ 60%] Built target LFH
+[ 80%] [32mBuilding CXX object CMakeFiles/PRL.dir/pointer_robot_location.cpp.o[0m
+[01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:21:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<int>* inputdatap[m[K’
+   21 |   vector<int>* [01;31m[Kinputdatap[m[K = new vector<int>{20, 34, 67};
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yusuf/ros2_ws/src/c++_source/pointer_robot_location.cpp:16:16:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<int>* inputdatap[m[K’ previously declared here
+   16 |   vector<int>* [01;36m[Kinputdatap[m[K = &inputdata; // variable pointer harus pakai
+      |                [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PRL.dir/build.make:76: CMakeFiles/PRL.dir/pointer_robot_location.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/PRL.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

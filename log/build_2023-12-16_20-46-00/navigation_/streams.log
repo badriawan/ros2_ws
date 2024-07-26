@@ -1,5 +1,0 @@
-[0.351s] Invoking command in '/home/yusuf/ros2_ws/build/navigation_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/navigation_ -- -j8 -l8
-[0.787s] [0mCMake Error: The source directory "/home/yusuf/ros2_ws/src/navigation_" does not exist.
-[0.787s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.788s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.798s] Invoked command in '/home/yusuf/ros2_ws/build/navigation_' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/navigation_ -- -j8 -l8

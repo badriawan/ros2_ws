@@ -1,0 +1,36 @@
+[0.268s] Invoking command in '/home/yusuf/ros2_ws/build/drive_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/mir_robot/install/ros2_aruco:/home/yusuf/mir_robot/install/point_cloud_functions:/home/yusuf/mir_robot/install/mir_restapi:/home/yusuf/mir_robot/install/mir_driver:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/drive_turtle -- -j8 -l8
+[0.613s] [ 12%] [32mBuilding CXX object CMakeFiles/p1_single_straight_drive.dir/src/p1_a_single_straight_drive.cpp.o[0m
+[0.663s] [ 25%] [32mBuilding CXX object CMakeFiles/p1_multi_straight_drive.dir/src/p1_b_multi_straight_drive.cpp.o[0m
+[0.675s] [ 37%] [32mBuilding CXX object CMakeFiles/test_run.dir/src/test_run.cpp.o[0m
+[0.721s] [ 50%] [32mBuilding CXX object CMakeFiles/p1_multi_turtle_controller.dir/src/p1_c_multi_turtle_controller.cpp.o[0m
+[15.866s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.868s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.870s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.880s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.887s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.889s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.890s]                  from [01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_turtle/src/test_run.cpp:6[m[K:
+[15.890s] [01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_turtle/src/test_run.cpp:[m[K In member function ‘[01m[Kvoid Drive::timer_callback()[m[K’:
+[15.891s] [01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_turtle/src/test_run.cpp:43:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.891s]    43 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%d'"[m[K, [32m[Kmessage[m[K);
+[15.892s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~[m[K
+[15.892s]       |                                                           [32m[K|[m[K
+[15.893s]       |                                                           [32m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K
+[15.894s] [01m[K/home/yusuf/ros2_ws/src/mobile_robotics_ROS2/drive_turtle/src/test_run.cpp:43:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.894s]    43 |       RCLCPP_INFO(this->get_logger(), "Publishing: '[01;36m[K%d[m[K'", message);
+[15.895s]       |                                                     [01;36m[K~^[m[K
+[15.895s]       |                                                      [01;36m[K|[m[K
+[15.896s]       |                                                      [01;36m[Kint[m[K
+[25.332s] [ 62%] [32m[1mLinking CXX executable p1_single_straight_drive[0m
+[27.084s] [ 62%] Built target p1_single_straight_drive
+[27.697s] [ 75%] [32m[1mLinking CXX executable p1_multi_turtle_controller[0m
+[28.358s] [ 87%] [32m[1mLinking CXX executable p1_multi_straight_drive[0m
+[29.121s] [ 87%] Built target p1_multi_turtle_controller
+[30.004s] [ 87%] Built target p1_multi_straight_drive
+[30.506s] [100%] [32m[1mLinking CXX executable test_run[0m
+[31.731s] [100%] Built target test_run

@@ -1,4 +1,0 @@
-[01m[K/home/yusuf/ros2_ws/src/ros_fundamental/src/drive_turtle.cpp:[m[K In member function ‘[01m[Kvoid DriveTurtle::timer_callback()[m[K’:
-[01m[K/home/yusuf/ros2_ws/src/ros_fundamental/src/drive_turtle.cpp:34:16:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
-   34 |       while( [01;35m[KA = true[m[K){
-      |              [01;35m[K~~^~~~~~[m[K

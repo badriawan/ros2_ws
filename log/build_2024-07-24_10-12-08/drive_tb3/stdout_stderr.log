@@ -1,0 +1,95 @@
+[35m[1mConsolidate compiler generated dependencies of target p2_multi_tb3_sqaure_drive[0m
+[35m[1mConsolidate compiler generated dependencies of target p3_b_angular_velocity[0m
+[35m[1mConsolidate compiler generated dependencies of target p3_a_acceleration[0m
+[35m[1mConsolidate compiler generated dependencies of target p3_d_xy_goal[0m
+[35m[1mConsolidate compiler generated dependencies of target p3_c_linear_goal[0m
+[35m[1mConsolidate compiler generated dependencies of target p5_b_maze_solving[0m
+[35m[1mConsolidate compiler generated dependencies of target p5_a_lidar_data_sub[0m
+[  9%] Built target p2_multi_tb3_sqaure_drive
+[ 18%] Built target p3_a_acceleration
+[ 27%] Built target p3_c_linear_goal
+[ 36%] Built target p3_b_angular_velocity
+[ 40%] [32m[1mLinking CXX executable p3_d_xy_goal[0m
+[ 50%] Built target p5_b_maze_solving
+[ 54%] [32m[1mLinking CXX executable p5_a_lidar_data_sub[0m
+[35m[1mConsolidate compiler generated dependencies of target p6_b_sdf_spawner[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/p5_c_camera_data_sub.dir/src/p5_c_camera_data_sub.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/p6_a_occupancy_grid.dir/src/p6_a_occupancy_grid.cpp.o[0m
+[ 72%] Built target p6_b_sdf_spawner
+[ 77%] [32mBuilding CXX object CMakeFiles/p5_d_line_following.dir/src/p5_d_line_following.cpp.o[0m
+[ 81%] Built target p3_d_xy_goal
+[ 86%] Built target p5_a_lidar_data_sub
+[ 90%] [32m[1mLinking CXX executable p6_a_occupancy_grid[0m
+[ 90%] Built target p6_a_occupancy_grid
+[ 95%] [32m[1mLinking CXX executable p5_c_camera_data_sub[0m
+[100%] [32m[1mLinking CXX executable p5_d_line_following[0m
+[100%] Built target p5_c_camera_data_sub
+[100%] Built target p5_d_line_following
+-- Install configuration: ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p2_multi_tb3_sqaure_drive
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p2_multi_tb3_sqaure_drive" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_a_acceleration
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_a_acceleration" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_b_angular_velocity
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_b_angular_velocity" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_c_linear_goal
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_c_linear_goal" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_d_xy_goal
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p3_d_xy_goal" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_a_lidar_data_sub
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_a_lidar_data_sub" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_b_maze_solving
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_b_maze_solving" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_c_camera_data_sub
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_c_camera_data_sub" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_d_line_following
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p5_d_line_following" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_a_occupancy_grid
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_a_occupancy_grid" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_b_sdf_spawner
+-- Set runtime path of "/home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_b_sdf_spawner" to ""
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/lib/drive_tb3/p6_c_commander_api_go_to_pose.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p5_a_maze_solve.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p6_a_maze_mapping.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/test_a.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p2_c_drive_sqaure_multi_tb3.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p2_a_spawn_tb3.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p6_b_maze_navigation.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p2_b_multi_tb3.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p3_a_maths.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//launch/p5_b_line_following.launch.py
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//worlds
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//worlds/maze.world
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//worlds/line_following.world
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/maze
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/maze/model.sdf
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/maze/model.config
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/line_track
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/line_track/model.sdf
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/line_track/model.config
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/meshes
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/meshes/base.dae
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//models/meshes/line.dae
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//map
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//map/maze_map.pgm
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//map/maze_map.yaml
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//config
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//config/waffle_pi.yaml
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3//config/nav2.rviz
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/ament_index/resource_index/package_run_dependencies/drive_tb3
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/ament_index/resource_index/parent_prefix_path/drive_tb3
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/environment/ament_prefix_path.sh
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/environment/ament_prefix_path.dsv
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/environment/path.sh
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/environment/path.dsv
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/local_setup.bash
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/local_setup.sh
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/local_setup.zsh
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/local_setup.dsv
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/package.dsv
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/ament_index/resource_index/packages/drive_tb3
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/cmake/drive_tb3Config.cmake
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/cmake/drive_tb3Config-version.cmake
+-- Installing: /home/yusuf/ros2_ws/install/drive_tb3/share/drive_tb3/package.xml
