@@ -223,6 +223,43 @@ maze_lidar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_lidar.dir/build.make CMakeFiles/maze_lidar.dir/build
 .PHONY : maze_lidar/fast
 
+#=============================================================================
+# Target rules for targets named line_following
+
+# Build rule for target.
+line_following: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 line_following
+.PHONY : line_following
+
+# fast build rule for target.
+line_following/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_following.dir/build.make CMakeFiles/line_following.dir/build
+.PHONY : line_following/fast
+
+src/linefollowing.o: src/linefollowing.cpp.o
+.PHONY : src/linefollowing.o
+
+# target to build an object file
+src/linefollowing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_following.dir/build.make CMakeFiles/line_following.dir/src/linefollowing.cpp.o
+.PHONY : src/linefollowing.cpp.o
+
+src/linefollowing.i: src/linefollowing.cpp.i
+.PHONY : src/linefollowing.i
+
+# target to preprocess a source file
+src/linefollowing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_following.dir/build.make CMakeFiles/line_following.dir/src/linefollowing.cpp.i
+.PHONY : src/linefollowing.cpp.i
+
+src/linefollowing.s: src/linefollowing.cpp.s
+.PHONY : src/linefollowing.s
+
+# target to generate assembly for a file
+src/linefollowing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_following.dir/build.make CMakeFiles/line_following.dir/src/linefollowing.cpp.s
+.PHONY : src/linefollowing.cpp.s
+
 src/maze_solving_with_lidar.o: src/maze_solving_with_lidar.cpp.o
 .PHONY : src/maze_solving_with_lidar.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... robot_sensing_uninstall"
 	@echo "... uninstall"
+	@echo "... line_following"
 	@echo "... maze_lidar"
 	@echo "... odom_kinematic"
+	@echo "... src/linefollowing.o"
+	@echo "... src/linefollowing.i"
+	@echo "... src/linefollowing.s"
 	@echo "... src/maze_solving_with_lidar.o"
 	@echo "... src/maze_solving_with_lidar.i"
 	@echo "... src/maze_solving_with_lidar.s"

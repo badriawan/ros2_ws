@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/yusuf/ros2_ws/build/robot_sensing
 # The main recursive "all" target.
 all: CMakeFiles/odom_kinematic.dir/all
 all: CMakeFiles/maze_lidar.dir/all
+all: CMakeFiles/line_following.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/robot_sensing_uninstall.dir/clean
 clean: CMakeFiles/odom_kinematic.dir/clean
 clean: CMakeFiles/maze_lidar.dir/clean
+clean: CMakeFiles/line_following.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/robot_sensing_uninstall.dir/clean:
 CMakeFiles/odom_kinematic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_kinematic.dir/build.make CMakeFiles/odom_kinematic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_kinematic.dir/build.make CMakeFiles/odom_kinematic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yusuf/ros2_ws/build/robot_sensing/CMakeFiles --progress-num=3,4 "Built target odom_kinematic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yusuf/ros2_ws/build/robot_sensing/CMakeFiles --progress-num=5,6 "Built target odom_kinematic"
 .PHONY : CMakeFiles/odom_kinematic.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +165,7 @@ CMakeFiles/odom_kinematic.dir/clean:
 CMakeFiles/maze_lidar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_lidar.dir/build.make CMakeFiles/maze_lidar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_lidar.dir/build.make CMakeFiles/maze_lidar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yusuf/ros2_ws/build/robot_sensing/CMakeFiles --progress-num=1,2 "Built target maze_lidar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yusuf/ros2_ws/build/robot_sensing/CMakeFiles --progress-num=3,4 "Built target maze_lidar"
 .PHONY : CMakeFiles/maze_lidar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ maze_lidar: CMakeFiles/maze_lidar.dir/rule
 CMakeFiles/maze_lidar.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_lidar.dir/build.make CMakeFiles/maze_lidar.dir/clean
 .PHONY : CMakeFiles/maze_lidar.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_following.dir
+
+# All Build rule for target.
+CMakeFiles/line_following.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_following.dir/build.make CMakeFiles/line_following.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_following.dir/build.make CMakeFiles/line_following.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yusuf/ros2_ws/build/robot_sensing/CMakeFiles --progress-num=1,2 "Built target line_following"
+.PHONY : CMakeFiles/line_following.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_following.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yusuf/ros2_ws/build/robot_sensing/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_following.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yusuf/ros2_ws/build/robot_sensing/CMakeFiles 0
+.PHONY : CMakeFiles/line_following.dir/rule
+
+# Convenience name for target.
+line_following: CMakeFiles/line_following.dir/rule
+.PHONY : line_following
+
+# clean rule for target.
+CMakeFiles/line_following.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_following.dir/build.make CMakeFiles/line_following.dir/clean
+.PHONY : CMakeFiles/line_following.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

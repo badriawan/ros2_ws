@@ -17,6 +17,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(OpenCV REQUIRED)
+
 
 
 
@@ -40,9 +43,14 @@ ament_target_dependencies(odom_kinematic rclcpp std_msgs geometry_msgs nav_msgs)
 add_executable(maze_lidar src/maze_solving_with_lidar.cpp)
 ament_target_dependencies(maze_lidar rclcpp sensor_msgs)
 
+add_executable(line_following src/linefollowing.cpp)
+ament_target_dependencies(line_following rclcpp sensor_msgs geometry_msgs cv_bridge)
+target_link_libraries(line_following ${OpenCV_LIBS})
+
 install(TARGETS
  maze_lidar
  odom_kinematic
+ line_following
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY
