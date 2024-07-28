@@ -28,12 +28,19 @@ public:
   }
 
 private:
-  void subCallback(const sensor_msgs::msg::Image::SharedPtr img)
+  void subCallback(const sensor_msgs::msg::Image::SharedPtr camera_msg)
   {
     //get ros data
     //ros to opencv data
+    cv_bridge::CvImagePtr cv_ptr;
+    cv_ptr = cv_bridge::toCvCopy(camera_msg,"bgr8");
+
+    cv::Mat gray_image;
+    cv::cvtColor(cv_ptr->image , gray_image,cv::COLOR_BGR2GRAY);
+
     //show using opencv
-   
+    cv::imshow("Image",gray_image);
+    cv::waitKey(1);
   }
 
 //   void timerCallback()
