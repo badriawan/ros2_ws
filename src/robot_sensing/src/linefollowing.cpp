@@ -18,6 +18,9 @@ public:
   LineFollowing()
   : Node("line_follower")
   {
+    this->declare_parameter<int>("lower_threshold",200);
+    this->declare_parameter<int>("upper_threshold",250);
+
     _subscriber = this->create_subscription<sensor_msgs::msg::Image>(
       "/camera/image_raw", 10, std::bind(&LineFollowing::subCallback, this, std::placeholders::_1));
 
@@ -35,13 +38,17 @@ private:
     cv_bridge::CvImagePtr cv_ptr;
     cv_ptr = cv_bridge::toCvCopy(camera_msg,"bgr8");
 
-    cv::Mat gray_image;
+    cv::Mat gray_image,canny_image;
     cv::cvtColor(cv_ptr->image , gray_image,cv::COLOR_BGR2GRAY);
+    int lower_threshold = this->get_parameter("lower_threshold").as_int();
+    int upper_threshold = this->get_parameter("upper_threshold").as_int();
+
+    cv::Canny(gray_image,canny_image,lower_threshold,upper_threshold);
 
     //show using opencv
     cv::namedWindow("Image", cv::WINDOW_NORMAL);
     cv::resizeWindow("Image", 600, 400);
-    cv::imshow("Image",gray_image);
+    cv::imshow("Image",canny_image);
     cv::waitKey(1);
   }
 

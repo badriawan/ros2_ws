@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (-) JobUnselected: {'identifier': 'LineFollower'}
+[0.000830] (-) JobUnselected: {'identifier': 'drive_tb3'}
+[0.001002] (-) JobUnselected: {'identifier': 'drive_turtle'}
+[0.001054] (-) JobUnselected: {'identifier': 'my_cpp_py_pkg'}
+[0.001096] (-) JobUnselected: {'identifier': 'navigation_tb3'}
+[0.001192] (-) JobUnselected: {'identifier': 'point_cloud_processing'}
+[0.001264] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.001306] (-) JobUnselected: {'identifier': 'robot_cpp'}
+[0.001353] (-) JobUnselected: {'identifier': 'robot_python'}
+[0.001395] (-) JobUnselected: {'identifier': 'robot_test'}
+[0.001490] (-) JobUnselected: {'identifier': 'ros_fundamental'}
+[0.001539] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001560] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001580] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001652] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001706] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001729] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001755] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001804] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001890] (-) JobUnselected: {'identifier': 'urdf_tutorial_r2d2'}
+[0.001917] (robot_sensing) JobQueued: {'identifier': 'robot_sensing', 'dependencies': OrderedDict()}
+[0.001963] (robot_sensing) JobStarted: {'identifier': 'robot_sensing'}
+[0.015962] (robot_sensing) JobProgress: {'identifier': 'robot_sensing', 'progress': 'cmake'}
+[0.017509] (robot_sensing) JobProgress: {'identifier': 'robot_sensing', 'progress': 'build'}
+[0.017588] (robot_sensing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yusuf/ros2_ws/build/robot_sensing', '--', '-j8', '-l8'], 'cwd': '/home/yusuf/ros2_ws/build/robot_sensing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yusuf'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yusuf/ros2_ws/install/ros2_control_demo_example_6/lib:/home/yusuf/ros2_ws/install/ros2_control_demo_example_5/lib:/home/yusuf/ros2_ws/install/ros2_control_demo_example_4/lib:/home/yusuf/ros2_ws/install/ros2_control_demo_example_3/lib:/home/yusuf/ros2_ws/install/ros2_control_demo_example_2/lib:/home/yusuf/ros2_ws/install/ros2_control_demo_example_14/lib:/home/yusuf/ros2_ws/install/ros2_control_demo_example_11/lib:/home/yusuf/ros2_ws/install/ros2_control_demo_example_10/lib:/home/yusuf/ros2_ws/install/ros2_control_demo_example_1/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yusuf'), ('OLDPWD', '/home/yusuf'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2687'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yusuf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yusuf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yusuf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yusuf/.gems/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yusuf-HP-ENVY-Laptop-13-ad1xx:@/tmp/.ICE-unix/2623,unix/yusuf-HP-ENVY-Laptop-13-ad1xx:/tmp/.ICE-unix/2623'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d522dde4_e49a_4892_b7a7_85b00687b0cb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1407'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_bringup:/home/yusuf/ros2_ws/install/turtlebot3_node:/home/yusuf/ros2_ws/install/turtlebot3_navigation2:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/turtlebot3_description:/home/yusuf/ros2_ws/install/turtlebot3_cartographer:/home/yusuf/ros2_ws/install/ros_fundamental:/home/yusuf/ros2_ws/install/ros2_control_demo_example_6:/home/yusuf/ros2_ws/install/ros2_control_demo_example_15:/home/yusuf/ros2_ws/install/ros2_control_demo_example_5:/home/yusuf/ros2_ws/install/ros2_control_demo_example_4:/home/yusuf/ros2_ws/install/ros2_control_demo_example_3:/home/yusuf/ros2_ws/install/ros2_control_demo_example_2:/home/yusuf/ros2_ws/install/ros2_control_demo_example_14:/home/yusuf/ros2_ws/install/ros2_control_demo_example_1:/home/yusuf/ros2_ws/install/ros2_control_demo_description:/home/yusuf/ros2_ws/install/robot_test:/home/yusuf/ros2_ws/install/robot_sensing:/home/yusuf/ros2_ws/install/robot_python:/home/yusuf/ros2_ws/install/robot_cpp:/home/yusuf/ros2_ws/install/robot_control:/home/yusuf/ros2_ws/install/point_cloud_processing:/home/yusuf/ros2_ws/install/navigation_tb3:/home/yusuf/ros2_ws/install/my_cpp_py_pkg:/home/yusuf/ros2_ws/install/drive_turtle:/home/yusuf/ros2_ws/install/drive_tb3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/yusuf/.gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yusuf/ros2_ws/build/robot_sensing'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/yusuf/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/yusuf/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/yusuf/ros2_ws/install/robot_python/lib/python3.10/site-packages:/home/yusuf/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yusuf/ros2_ws/install/turtlebot3:/home/yusuf/ros2_ws/install/turtlebot3_bringup:/home/yusuf/ros2_ws/install/turtlebot3_node:/home/yusuf/ros2_ws/install/turtlebot3_navigation2:/home/yusuf/ros2_ws/install/turtlebot3_description:/home/yusuf/ros2_ws/install/turtlebot3_cartographer:/home/yusuf/ros2_ws/install/ros_fundamental:/home/yusuf/ros2_ws/install/ros2_control_demo_example_6:/home/yusuf/ros2_ws/install/ros2_control_demo_example_15:/home/yusuf/ros2_ws/install/ros2_control_demo_example_5:/home/yusuf/ros2_ws/install/ros2_control_demo_example_4:/home/yusuf/ros2_ws/install/ros2_control_demo_example_3:/home/yusuf/ros2_ws/install/ros2_control_demo_example_2:/home/yusuf/ros2_ws/install/ros2_control_demo_example_14:/home/yusuf/ros2_ws/install/ros2_control_demo_example_11:/home/yusuf/ros2_ws/install/ros2_control_demo_example_10:/home/yusuf/ros2_ws/install/ros2_control_demo_example_1:/home/yusuf/ros2_ws/install/ros2_control_demo_description:/home/yusuf/ros2_ws/install/robot_test:/home/yusuf/ros2_ws/install/robot_sensing:/home/yusuf/ros2_ws/install/robot_cpp:/home/yusuf/ros2_ws/install/robot_control:/home/yusuf/ros2_ws/install/point_cloud_processing:/home/yusuf/ros2_ws/install/navigation_tb3:/home/yusuf/ros2_ws/install/my_cpp_py_pkg:/home/yusuf/ros2_ws/install/drive_turtle:/home/yusuf/ros2_ws/install/drive_tb3:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble')]), 'shell': False}
+[0.087264] (robot_sensing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_following\x1b[0m\n'}
+[0.099624] (-) TimerEvent: {}
+[0.112456] (robot_sensing) StdoutLine: {'line': b'[ 33%] Built target maze_lidar\n'}
+[0.118362] (robot_sensing) StdoutLine: {'line': b'[ 66%] Built target odom_kinematic\n'}
+[0.135103] (robot_sensing) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o\x1b[0m\n'}
+[0.199764] (-) TimerEvent: {}
+[0.300230] (-) TimerEvent: {}
+[0.400629] (-) TimerEvent: {}
+[0.500989] (-) TimerEvent: {}
+[0.601352] (-) TimerEvent: {}
+[0.701709] (-) TimerEvent: {}
+[0.802010] (-) TimerEvent: {}
+[0.902411] (-) TimerEvent: {}
+[1.002818] (-) TimerEvent: {}
+[1.103152] (-) TimerEvent: {}
+[1.203476] (-) TimerEvent: {}
+[1.303780] (-) TimerEvent: {}
+[1.404196] (-) TimerEvent: {}
+[1.504636] (-) TimerEvent: {}
+[1.605106] (-) TimerEvent: {}
+[1.705553] (-) TimerEvent: {}
+[1.805973] (-) TimerEvent: {}
+[1.906425] (-) TimerEvent: {}
+[2.006909] (-) TimerEvent: {}
+[2.107602] (-) TimerEvent: {}
+[2.208179] (-) TimerEvent: {}
+[2.308772] (-) TimerEvent: {}
+[2.409435] (-) TimerEvent: {}
+[2.509930] (-) TimerEvent: {}
+[2.610310] (-) TimerEvent: {}
+[2.710746] (-) TimerEvent: {}
+[2.811307] (-) TimerEvent: {}
+[2.911748] (-) TimerEvent: {}
+[3.012181] (-) TimerEvent: {}
+[3.112704] (-) TimerEvent: {}
+[3.213135] (-) TimerEvent: {}
+[3.313580] (-) TimerEvent: {}
+[3.413948] (-) TimerEvent: {}
+[3.514324] (-) TimerEvent: {}
+[3.614713] (-) TimerEvent: {}
+[3.715085] (-) TimerEvent: {}
+[3.815494] (-) TimerEvent: {}
+[3.915943] (-) TimerEvent: {}
+[4.016394] (-) TimerEvent: {}
+[4.116809] (-) TimerEvent: {}
+[4.205952] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLineFollowing::LineFollowing()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.206621] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:21:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLineFollowing::declare_parameters<int>(const char [16], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.206835] (robot_sensing) StderrLine: {'line': b'   21 |     \x1b[01;31m\x1b[Kthis->declare_parameters<int>("lower_threshold",10)\x1b[m\x1b[K;\n'}
+[4.207030] (robot_sensing) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.207194] (robot_sensing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[4.207367] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.207539] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.207713] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.207882] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6\x1b[m\x1b[K:\n'}
+[4.208121] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:237:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, ParameterT>&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.208298] (robot_sensing) StderrLine: {'line': b'  237 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameters(\n'}
+[4.208484] (robot_sensing) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.208628] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:239:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<std::__cxx11::basic_string<char>, int, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, int> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.208774] (robot_sensing) StderrLine: {'line': b'  239 |   \x1b[01;36m\x1b[Kconst std::map<std::string, ParameterT> & parameters\x1b[m\x1b[K,\n'}
+[4.208910] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.209045] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:259:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > >&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.209193] (robot_sensing) StderrLine: {'line': b'  259 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameters(\n'}
+[4.209358] (robot_sensing) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.209509] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:264:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<std::__cxx11::basic_string<char>, std::pair<int, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > >, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, std::pair<int, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.209670] (robot_sensing) StderrLine: {'line': b'  261 |   \x1b[01;36m\x1b[Kconst std::map<\x1b[m\x1b[K\n'}
+[4.209833] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.210009] (robot_sensing) StderrLine: {'line': b'  262 | \x1b[01;36m\x1b[K    std::string,\x1b[m\x1b[K\n'}
+[4.210148] (robot_sensing) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.210286] (robot_sensing) StderrLine: {'line': b'  263 | \x1b[01;36m\x1b[K    std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor>\x1b[m\x1b[K\n'}
+[4.210442] (robot_sensing) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.210588] (robot_sensing) StderrLine: {'line': b'  264 | \x1b[01;36m\x1b[K  > & parameters\x1b[m\x1b[K,\n'}
+[4.210752] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.210904] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:22:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLineFollowing::declare_parameters<int>(const char [16], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.211126] (robot_sensing) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[Kthis->declare_parameters<int>("upper_threshold",50)\x1b[m\x1b[K;\n'}
+[4.211286] (robot_sensing) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.211439] (robot_sensing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[4.211620] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.211753] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.211883] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.212016] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6\x1b[m\x1b[K:\n'}
+[4.212149] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:237:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, ParameterT>&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.212282] (robot_sensing) StderrLine: {'line': b'  237 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameters(\n'}
+[4.212454] (robot_sensing) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.212591] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:239:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<std::__cxx11::basic_string<char>, int, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, int> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.212726] (robot_sensing) StderrLine: {'line': b'  239 |   \x1b[01;36m\x1b[Kconst std::map<std::string, ParameterT> & parameters\x1b[m\x1b[K,\n'}
+[4.212852] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.212974] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:259:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > >&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.213115] (robot_sensing) StderrLine: {'line': b'  259 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::declare_parameters(\n'}
+[4.213242] (robot_sensing) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.213379] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:264:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<std::__cxx11::basic_string<char>, std::pair<int, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > >, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, std::pair<int, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.213519] (robot_sensing) StderrLine: {'line': b'  261 |   \x1b[01;36m\x1b[Kconst std::map<\x1b[m\x1b[K\n'}
+[4.213642] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.213777] (robot_sensing) StderrLine: {'line': b'  262 | \x1b[01;36m\x1b[K    std::string,\x1b[m\x1b[K\n'}
+[4.213912] (robot_sensing) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.214044] (robot_sensing) StderrLine: {'line': b'  263 | \x1b[01;36m\x1b[K    std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor>\x1b[m\x1b[K\n'}
+[4.214180] (robot_sensing) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.214312] (robot_sensing) StderrLine: {'line': b'  264 | \x1b[01;36m\x1b[K  > & parameters\x1b[m\x1b[K,\n'}
+[4.214445] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.216898] (-) TimerEvent: {}
+[4.234586] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LineFollowing::subCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.235109] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:43:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLineFollowing::get_parameters(const char [16])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.235303] (robot_sensing) StderrLine: {'line': b'   43 |     int lower_threshold = \x1b[01;31m\x1b[Kthis->get_parameters("lower_threshold")\x1b[m\x1b[K.as_int();\n'}
+[4.235544] (robot_sensing) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.235706] (robot_sensing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.235860] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.236015] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.236172] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6\x1b[m\x1b[K:\n'}
+[4.236333] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:786:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> bool rclcpp::Node::get_parameters(const string&, std::map<std::__cxx11::basic_string<char>, ParameterT>&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.236553] (robot_sensing) StderrLine: {'line': b'  786 |   \x1b[01;36m\x1b[Kget_parameters\x1b[m\x1b[K(\n'}
+[4.236727] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.236895] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:786:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.253678] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:43:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[4.254368] (robot_sensing) StderrLine: {'line': b'   43 |     int lower_threshold = \x1b[01;36m\x1b[Kthis->get_parameters("lower_threshold")\x1b[m\x1b[K.as_int();\n'}
+[4.254509] (robot_sensing) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.254649] (robot_sensing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.254790] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.254927] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.255070] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6\x1b[m\x1b[K:\n'}
+[4.255204] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:745:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<rclcpp::Parameter> rclcpp::Node::get_parameters(const std::vector<std::__cxx11::basic_string<char> >&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.255342] (robot_sensing) StderrLine: {'line': b'  745 |   \x1b[01;36m\x1b[Kget_parameters\x1b[m\x1b[K(const std::vector<std::string> & names) const;\n'}
+[4.255468] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.255656] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:745:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [16]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.255830] (robot_sensing) StderrLine: {'line': b'  745 |   get_parameters(\x1b[01;36m\x1b[Kconst std::vector<std::string> & names\x1b[m\x1b[K) const;\n'}
+[4.256007] (robot_sensing) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.256196] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:44:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLineFollowing::get_parameters(const char [16])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.256423] (robot_sensing) StderrLine: {'line': b'   44 |     int upper_threshold = \x1b[01;31m\x1b[Kthis->get_parameters("upper_threshold")\x1b[m\x1b[K.as_int();\n'}
+[4.256620] (robot_sensing) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.256779] (robot_sensing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.256937] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.257119] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.257307] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6\x1b[m\x1b[K:\n'}
+[4.257487] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:786:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> bool rclcpp::Node::get_parameters(const string&, std::map<std::__cxx11::basic_string<char>, ParameterT>&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.257654] (robot_sensing) StderrLine: {'line': b'  786 |   \x1b[01;36m\x1b[Kget_parameters\x1b[m\x1b[K(\n'}
+[4.257801] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.257936] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:786:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.258102] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:44:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[4.258255] (robot_sensing) StderrLine: {'line': b'   44 |     int upper_threshold = \x1b[01;36m\x1b[Kthis->get_parameters("upper_threshold")\x1b[m\x1b[K.as_int();\n'}
+[4.258404] (robot_sensing) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.258549] (robot_sensing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.258678] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.258854] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.258978] (robot_sensing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6\x1b[m\x1b[K:\n'}
+[4.259103] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:745:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<rclcpp::Parameter> rclcpp::Node::get_parameters(const std::vector<std::__cxx11::basic_string<char> >&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259281] (robot_sensing) StderrLine: {'line': b'  745 |   \x1b[01;36m\x1b[Kget_parameters\x1b[m\x1b[K(const std::vector<std::string> & names) const;\n'}
+[4.259489] (robot_sensing) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.259714] (robot_sensing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:745:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [16]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259892] (robot_sensing) StderrLine: {'line': b'  745 |   get_parameters(\x1b[01;36m\x1b[Kconst std::vector<std::string> & names\x1b[m\x1b[K) const;\n'}
+[4.260069] (robot_sensing) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.317044] (-) TimerEvent: {}
+[4.417407] (-) TimerEvent: {}
+[4.517766] (-) TimerEvent: {}
+[4.618128] (-) TimerEvent: {}
+[4.718476] (-) TimerEvent: {}
+[4.818824] (-) TimerEvent: {}
+[4.919152] (-) TimerEvent: {}
+[5.019495] (-) TimerEvent: {}
+[5.119859] (-) TimerEvent: {}
+[5.220218] (-) TimerEvent: {}
+[5.320550] (-) TimerEvent: {}
+[5.420894] (-) TimerEvent: {}
+[5.521245] (-) TimerEvent: {}
+[5.621623] (-) TimerEvent: {}
+[5.722004] (-) TimerEvent: {}
+[5.822391] (-) TimerEvent: {}
+[5.922790] (-) TimerEvent: {}
+[6.023178] (-) TimerEvent: {}
+[6.123661] (-) TimerEvent: {}
+[6.224132] (-) TimerEvent: {}
+[6.324473] (-) TimerEvent: {}
+[6.424910] (-) TimerEvent: {}
+[6.525307] (-) TimerEvent: {}
+[6.625702] (-) TimerEvent: {}
+[6.726196] (-) TimerEvent: {}
+[6.826571] (-) TimerEvent: {}
+[6.926977] (-) TimerEvent: {}
+[7.027388] (-) TimerEvent: {}
+[7.127801] (-) TimerEvent: {}
+[7.228187] (-) TimerEvent: {}
+[7.328536] (-) TimerEvent: {}
+[7.428934] (-) TimerEvent: {}
+[7.529306] (-) TimerEvent: {}
+[7.629682] (-) TimerEvent: {}
+[7.730070] (-) TimerEvent: {}
+[7.830493] (-) TimerEvent: {}
+[7.931011] (-) TimerEvent: {}
+[8.031364] (-) TimerEvent: {}
+[8.131752] (-) TimerEvent: {}
+[8.232117] (-) TimerEvent: {}
+[8.332477] (-) TimerEvent: {}
+[8.375710] (robot_sensing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_following.dir/build.make:76: CMakeFiles/line_following.dir/src/linefollowing.cpp.o] Error 1\n'}
+[8.376115] (robot_sensing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_following.dir/all] Error 2\n'}
+[8.376340] (robot_sensing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.379546] (robot_sensing) CommandEnded: {'returncode': 2}
+[8.432576] (-) TimerEvent: {}
+[8.462764] (robot_sensing) JobEnded: {'identifier': 'robot_sensing', 'rc': 2}
+[8.473507] (-) EventReactorShutdown: {}

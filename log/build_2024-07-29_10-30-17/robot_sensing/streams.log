@@ -1,0 +1,111 @@
+[0.018s] Invoking command in '/home/yusuf/ros2_ws/build/robot_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_sensing -- -j8 -l8
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target line_following[0m
+[0.111s] [ 33%] Built target maze_lidar
+[0.117s] [ 66%] Built target odom_kinematic
+[0.133s] [ 83%] [32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o[0m
+[4.205s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:[m[K In constructor ‘[01m[KLineFollowing::LineFollowing()[m[K’:
+[4.205s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:21:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLineFollowing::declare_parameters<int>(const char [16], int)[m[K’
+[4.205s]    21 |     [01;31m[Kthis->declare_parameters<int>("lower_threshold",10)[m[K;
+[4.205s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.205s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[4.206s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.206s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.206s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.206s]                  from [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6[m[K:
+[4.206s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:237:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, ParameterT>&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>][m[K’
+[4.206s]   237 | [01;36m[KNode[m[K::declare_parameters(
+[4.207s]       | [01;36m[K^~~~[m[K
+[4.207s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:239:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, int, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, int> > >&[m[K’
+[4.207s]   239 |   [01;36m[Kconst std::map<std::string, ParameterT> & parameters[m[K,
+[4.207s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.207s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:259:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > >&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>][m[K’
+[4.207s]   259 | [01;36m[KNode[m[K::declare_parameters(
+[4.207s]       | [01;36m[K^~~~[m[K
+[4.208s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:264:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, std::pair<int, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > >, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, std::pair<int, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > > > >&[m[K’
+[4.208s]   261 |   [01;36m[Kconst std::map<[m[K
+[4.208s]       |   [01;36m[K~~~~~~~~~~~~~~~[m[K
+[4.208s]   262 | [01;36m[K    std::string,[m[K
+[4.208s]       |     [01;36m[K~~~~~~~~~~~~[m[K
+[4.208s]   263 | [01;36m[K    std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor>[m[K
+[4.209s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.209s]   264 | [01;36m[K  > & parameters[m[K,
+[4.209s]       |   [01;36m[K~~~~^~~~~~~~~~[m[K
+[4.209s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:22:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLineFollowing::declare_parameters<int>(const char [16], int)[m[K’
+[4.209s]    22 |     [01;31m[Kthis->declare_parameters<int>("upper_threshold",50)[m[K;
+[4.209s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.210s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[4.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.210s]                  from [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6[m[K:
+[4.210s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:237:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, ParameterT>&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>][m[K’
+[4.210s]   237 | [01;36m[KNode[m[K::declare_parameters(
+[4.211s]       | [01;36m[K^~~~[m[K
+[4.211s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:239:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, int, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, int> > >&[m[K’
+[4.211s]   239 |   [01;36m[Kconst std::map<std::string, ParameterT> & parameters[m[K,
+[4.211s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.211s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:259:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > >&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>][m[K’
+[4.211s]   259 | [01;36m[KNode[m[K::declare_parameters(
+[4.211s]       | [01;36m[K^~~~[m[K
+[4.212s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:264:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, std::pair<int, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > >, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::pair<const std::__cxx11::basic_string<char>, std::pair<int, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > > > >&[m[K’
+[4.212s]   261 |   [01;36m[Kconst std::map<[m[K
+[4.212s]       |   [01;36m[K~~~~~~~~~~~~~~~[m[K
+[4.212s]   262 | [01;36m[K    std::string,[m[K
+[4.212s]       |     [01;36m[K~~~~~~~~~~~~[m[K
+[4.212s]   263 | [01;36m[K    std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor>[m[K
+[4.212s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.212s]   264 | [01;36m[K  > & parameters[m[K,
+[4.213s]       |   [01;36m[K~~~~^~~~~~~~~~[m[K
+[4.233s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:[m[K In member function ‘[01m[Kvoid LineFollowing::subCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.233s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:43:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLineFollowing::get_parameters(const char [16])[m[K’
+[4.234s]    43 |     int lower_threshold = [01;31m[Kthis->get_parameters("lower_threshold")[m[K.as_int();
+[4.234s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[4.234s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.234s]                  from [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6[m[K:
+[4.235s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:786:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> bool rclcpp::Node::get_parameters(const string&, std::map<std::__cxx11::basic_string<char>, ParameterT>&) const[m[K’
+[4.235s]   786 |   [01;36m[Kget_parameters[m[K(
+[4.235s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.235s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:786:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.252s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:43:47:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.252s]    43 |     int lower_threshold = [01;36m[Kthis->get_parameters("lower_threshold")[m[K.as_int();
+[4.253s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[4.253s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.253s]                  from [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6[m[K:
+[4.253s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:745:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<rclcpp::Parameter> rclcpp::Node::get_parameters(const std::vector<std::__cxx11::basic_string<char> >&) const[m[K’
+[4.253s]   745 |   [01;36m[Kget_parameters[m[K(const std::vector<std::string> & names) const;
+[4.254s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.254s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:745:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [16][m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+[4.254s]   745 |   get_parameters([01;36m[Kconst std::vector<std::string> & names[m[K) const;
+[4.254s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.254s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:44:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLineFollowing::get_parameters(const char [16])[m[K’
+[4.255s]    44 |     int upper_threshold = [01;31m[Kthis->get_parameters("upper_threshold")[m[K.as_int();
+[4.255s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[4.255s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.255s]                  from [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6[m[K:
+[4.256s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:786:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> bool rclcpp::Node::get_parameters(const string&, std::map<std::__cxx11::basic_string<char>, ParameterT>&) const[m[K’
+[4.256s]   786 |   [01;36m[Kget_parameters[m[K(
+[4.256s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.256s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:786:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.256s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:44:47:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.256s]    44 |     int upper_threshold = [01;36m[Kthis->get_parameters("upper_threshold")[m[K.as_int();
+[4.257s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[4.257s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.257s]                  from [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:6[m[K:
+[4.257s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:745:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<rclcpp::Parameter> rclcpp::Node::get_parameters(const std::vector<std::__cxx11::basic_string<char> >&) const[m[K’
+[4.257s]   745 |   [01;36m[Kget_parameters[m[K(const std::vector<std::string> & names) const;
+[4.258s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.258s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:745:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [16][m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+[4.258s]   745 |   get_parameters([01;36m[Kconst std::vector<std::string> & names[m[K) const;
+[4.258s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.374s] gmake[2]: *** [CMakeFiles/line_following.dir/build.make:76: CMakeFiles/line_following.dir/src/linefollowing.cpp.o] Error 1
+[8.374s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_following.dir/all] Error 2
+[8.374s] gmake: *** [Makefile:146: all] Error 2
+[8.378s] Invoked command in '/home/yusuf/ros2_ws/build/robot_sensing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_sensing -- -j8 -l8
