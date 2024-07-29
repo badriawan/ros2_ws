@@ -1,0 +1,35 @@
+[0.019s] Invoking command in '/home/yusuf/ros2_ws/build/robot_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_sensing -- -j8 -l8
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target line_following[0m
+[0.104s] [ 66%] Built target maze_lidar
+[0.104s] [ 66%] Built target odom_kinematic
+[0.117s] [ 83%] [32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o[0m
+[4.185s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:[m[K In member function ‘[01m[Kvoid LineFollowing::subCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.185s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:35:16:[m[K [01;31m[Kerror: [m[K‘[01m[KCVImagePtr[m[K’ is not a member of ‘[01m[Kcv_bridge[m[K’; did you mean ‘[01m[KCvImagePtr[m[K’?
+[4.185s]    35 |     cv_bridge::[01;31m[KCVImagePtr[m[K cv_ptr;
+[4.185s]       |                [01;31m[K^~~~~~~~~~[m[K
+[4.185s]       |                [32m[KCvImagePtr[m[K
+[4.197s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_ptr[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_ptr[m[K’?
+[4.198s]    36 |     [01;31m[Kcv_ptr[m[K = cv_bridge::toCVCopy(camera_msg,"bgr8");
+[4.198s]       |     [01;31m[K^~~~~~[m[K
+[4.198s]       |     [32m[Ksi_ptr[m[K
+[4.198s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:36:25:[m[K [01;31m[Kerror: [m[K‘[01m[KtoCVCopy[m[K’ is not a member of ‘[01m[Kcv_bridge[m[K’; did you mean ‘[01m[KtoCvCopy[m[K’?
+[4.198s]    36 |     cv_ptr = cv_bridge::[01;31m[KtoCVCopy[m[K(camera_msg,"bgr8");
+[4.198s]       |                         [01;31m[K^~~~~~~~[m[K
+[4.198s]       |                         [32m[KtoCvCopy[m[K
+[4.198s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:39:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+[4.198s]    39 |     cv::cvtColor(cv_ptr->image , gray_image,cv::[01;31m[K([m[KCOLOR_BGR2GRAY));
+[4.198s]       |                                                 [01;31m[K^[m[K
+[4.199s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:39:50:[m[K [01;31m[Kerror: [m[K‘[01m[KCOLOR_BGR2GRAY[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::COLOR_BGR2GRAY[m[K’?
+[4.199s]    39 |     cv::cvtColor(cv_ptr->image , gray_image,cv::([01;31m[KCOLOR_BGR2GRAY[m[K));
+[4.199s]       |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.199s]       |                                                  [32m[Kcv::COLOR_BGR2GRAY[m[K
+[4.199s] In file included from [01m[K/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:48[m[K,
+[4.199s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:44[m[K,
+[4.199s]                  from [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:9[m[K:
+[4.199s] [01m[K/usr/include/opencv4/opencv2/imgproc.hpp:551:5:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::COLOR_BGR2GRAY[m[K’ declared here
+[4.199s]   551 |     [01;36m[KCOLOR_BGR2GRAY[m[K     = 6, //!< convert between RGB/BGR and grayscale, @ref color_convert_rgb_gray "color conversions"
+[4.199s]       |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.528s] gmake[2]: *** [CMakeFiles/line_following.dir/build.make:76: CMakeFiles/line_following.dir/src/linefollowing.cpp.o] Error 1
+[7.528s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_following.dir/all] Error 2
+[7.528s] gmake: *** [Makefile:146: all] Error 2
+[7.531s] Invoked command in '/home/yusuf/ros2_ws/build/robot_sensing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_sensing -- -j8 -l8
