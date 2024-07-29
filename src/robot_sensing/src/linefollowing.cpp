@@ -39,6 +39,8 @@ private:
     cv::cvtColor(cv_ptr->image , gray_image,cv::COLOR_BGR2GRAY);
 
     //show using opencv
+    cv::namedWindow("Image", cv::WINDOW_NORMAL);
+    cv::resizeWindow("Image", 600, 400);
     cv::imshow("Image",gray_image);
     cv::waitKey(1);
   }

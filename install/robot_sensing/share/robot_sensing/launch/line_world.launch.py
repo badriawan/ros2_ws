@@ -70,11 +70,11 @@ def generate_launch_description():
         }.items()
     )
 
-    # MazeSolving = Node(
-    #     package = 'robot_sensing',
-    #     name = 'maze_lidar',
-    #     executable = 'maze_lidar',
-    # )
+    linefollower = Node(
+        package = 'robot_sensing',
+        name = 'line_follower',
+        executable = 'line_following',
+    )
 
     ld = LaunchDescription()
 
@@ -83,6 +83,6 @@ def generate_launch_description():
     ld.add_action(gzclient_cmd)
     ld.add_action(robot_state_publisher_cmd)
     ld.add_action(spawn_turtlebot_cmd)
-    # ld.add_action(MazeSolving)
+    ld.add_action(linefollower)
 
     return ld
