@@ -4,9 +4,10 @@
 /home/yusuf/ros2_ws/install/ros_fundamental/lib/ros_fundamental/tf_static
 /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/gazebo.launch.py
 /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/turtletest.launch.py
+/home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/custom_sensor.launch.py
 /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/launch/rviz.launch.py
 /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_4.urdf
-/home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_3.urdf
+/home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_sens.urdf
 /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_2.urdf
 /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/manipulator.urdf
 /home/yusuf/ros2_ws/install/ros_fundamental/share/ros_fundamental/urdf/diff_drive.urdf
