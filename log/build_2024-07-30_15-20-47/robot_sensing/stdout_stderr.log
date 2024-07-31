@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target line_following[0m
+[ 33%] Built target maze_lidar
+[ 66%] Built target odom_kinematic
+[ 83%] [32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o[0m
+[01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:[m[K In member function ‘[01m[Kvoid LineFollowing::subCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:73:19:[m[K [01;31m[Kerror: [m[K‘[01m[KcannyImage[m[K’ was not declared in this scope; did you mean ‘[01m[Kcanny_image[m[K’?
+   73 |     cv::Mat roi = [01;31m[KcannyImage[m[K(cv::Range(row, row + 240), cv::Range(column, column + 640));
+      |                   [01;31m[K^~~~~~~~~~[m[K
+      |                   [32m[Kcanny_image[m[K
+gmake[2]: *** [CMakeFiles/line_following.dir/build.make:76: CMakeFiles/line_following.dir/src/linefollowing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_following.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

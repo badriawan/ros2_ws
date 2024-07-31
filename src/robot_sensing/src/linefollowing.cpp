@@ -38,19 +38,79 @@ private:
     cv_bridge::CvImagePtr cv_ptr;
     cv_ptr = cv_bridge::toCvCopy(camera_msg,"bgr8");
 
-    cv::Mat gray_image,canny_image;
+    cv::Mat gray_image,cannyImage;
     cv::cvtColor(cv_ptr->image , gray_image,cv::COLOR_BGR2GRAY);
     int lower_threshold = this->get_parameter("lower_threshold").as_int();
     int upper_threshold = this->get_parameter("upper_threshold").as_int();
+    //edge segmentation
+    cv::Canny(gray_image,cannyImage,lower_threshold,upper_threshold);
 
-    cv::Canny(gray_image,canny_image,lower_threshold,upper_threshold);
+    int row = 150, column = 0;
+    //boundaries dari pixel yang mau di proses
+    cv::Mat roi = cannyImage(cv::Range(row, row + 240), cv::Range(column, column + 640));
 
-    //show using opencv
-    cv::namedWindow("Image", cv::WINDOW_NORMAL);
-    cv::resizeWindow("Image", 600, 400);
-    cv::imshow("Image",canny_image);
+    //piksel yang menunjukkan tepi/edge/objek disimpan dalam edge 
+    std::vector<int> edge;
+    for (int i = 0; i < 640; ++i) {
+      if (roi.at<uchar>(160, i) == 255) {
+        edge.push_back(i);
+      }
+    }
+    
+    if (!edge.empty()){
+    int line = edge[1]-edge[0];
+    int mid_line = line + line/2;
+    int mid_robot = 640/2;
+
+    cv::circle(roi,cv::Point(mid_line,160),2,cv::Scalar(255,255,255),-1);
+    cv::circle(roi,cv::Point(mid_robot,160),5,cv::Scalar(255,255,255),-1);
+
+    cv::imshow("Image", roi);
     cv::waitKey(1);
   }
+  }
+
+
+
+
+    //show using opencv
+    // cv::namedWindow("Image", cv::WINDOW_NORMAL);
+    // cv::resizeWindow("Image", 600, 400);
+
+  //    // Process Canny image to find the line's midpoint
+  //   int row = 150, column = 0;
+  //   cv::Mat roi = cannyImage(cv::Range(row, row + 240), cv::Range(column, column + 640));
+
+  //   std::vector<int> edge;
+  //   for (int i = 0; i < 640; ++i) {
+  //     if (roi.at<uchar>(160, i) == 255) {
+  //       edge.push_back(i);
+  //     }
+  //   }
+
+  //   if (!edge.empty()) {
+  //     int midArea = edge.back() - edge.front();
+  //     int midPoint = edge.front() + midArea / 2;
+  //     int robotMidPoint = 640 / 2;
+
+  //     // Calculate error and adjust robot's direction
+  //     // double error = robotMidPoint - midPoint;
+  //     // velocityMsg.linear.x = 0.1;
+  //     // if (error < 0) {
+  //     //   velocityMsg.angular.z = -_angularVel;
+  //     // } else {
+  //     //   velocityMsg.angular.z = _angularVel;
+  //     // }
+
+  //     // _publisher->publish(velocityMsg);
+
+  //     // Visualization
+  //     cv::circle(roi, cv::Point(midPoint, 160), 2, cv::Scalar(255, 255, 255), -1);
+  //     cv::circle(roi, cv::Point(robotMidPoint, 160), 5, cv::Scalar(255, 255, 255), -1);
+  //     cv::imshow("Image", roi);
+  //     cv::waitKey(1);
+  //   }
+  // }
 
 //   void timerCallback()
 //   {

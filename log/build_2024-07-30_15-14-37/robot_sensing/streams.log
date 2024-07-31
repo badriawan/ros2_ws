@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/yusuf/ros2_ws/build/robot_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_sensing -- -j8 -l8
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target line_following[0m
+[0.114s] [ 33%] Built target maze_lidar
+[0.120s] [ 66%] Built target odom_kinematic
+[0.130s] [ 83%] [32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o[0m
+[3.722s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:[m[K In constructor ‘[01m[KLineFollowing::LineFollowing()[m[K’:
+[3.722s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[3.722s]    24 |     [01;31m[K_subscriber[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+[3.722s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.722s]       |     [32m[Kcount_subscribers[m[K
+[3.785s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.785s]    27 |     [01;31m[K_publisher[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+[3.785s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.785s]       |     [32m[Krmw_publisher_t[m[K
+[3.798s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:[m[K At global scope:
+[3.798s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:83:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K_timer[m[K’
+[3.798s]    83 |   rclcpp::TimerBase::SharedPtr [01;31m[K_timer[m[K;
+[3.798s]       |                                [01;31m[K^~~~~~[m[K
+[3.800s] [01m[K/home/yusuf/ros2_ws/src/robot_sensing/src/linefollowing.cpp:88:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.800s]    88 | [01;31m[K}[m[K;
+[3.800s]       | [01;31m[K^[m[K
+[6.429s] gmake[2]: *** [CMakeFiles/line_following.dir/build.make:76: CMakeFiles/line_following.dir/src/linefollowing.cpp.o] Error 1
+[6.429s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_following.dir/all] Error 2
+[6.430s] gmake: *** [Makefile:146: all] Error 2
+[6.433s] Invoked command in '/home/yusuf/ros2_ws/build/robot_sensing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_ws/install/urdf_tutorial_r2d2:/home/yusuf/ros2_ws/install/turtlebot3_teleop:/home/yusuf/ros2_ws/install/turtlebot3_example:/home/yusuf/ros2_ws/install/robot_python:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_ws/build/robot_sensing -- -j8 -l8
